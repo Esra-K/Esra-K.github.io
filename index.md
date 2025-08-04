@@ -27,12 +27,17 @@ layout: default
         </a>
       </div>
     </div>
-      <nav class="sidebar-nav">
+      <!-- <nav class="sidebar-nav">
         <a href="#bio">Bio</a>
         <a href="#education">Education</a>
         <a href="#projects">Projects</a>
         <a href="#papers">Papers</a>
         <a href="#interests">Interests</a>
+      </nav> -->
+
+      <!-- replaced static navbar with dynamic navbar using nav.js dynamic-nav-->
+      <nav class="sidebar-nav" id="dynamic-nav">
+        <!-- Navigation links will be generated here -->
       </nav>
   </div>
 
@@ -45,10 +50,15 @@ layout: default
       <a href="#interests">Interests</a>
     </nav> -->
 
-    <section id="bio"><h2>Bio</h2><p>Write about yourself here.</p></section>
-    <section id="education">
-      <h2>Education</h2>
+  <!--     
+    for the navbar to work, 
+    Make sure each section:
+    Has a unique id
+    Has a child <h2> heading
+     -->
 
+    <section id="bio">
+      <h2>Bio</h2>
       <h3>M.Sc. in Computer Science</h3>
       <p>Y University, 2022 – 2024</p>
       <ul>
@@ -71,11 +81,24 @@ layout: default
         <li>Math & Science Track</li>
         <li>Top 5% of class</li>
       </ul>
+      <p>Write about yourself here.</p>
     </section>
+    
+    <section id="interests"><h2>Skills & Interests</h2><p>Mention your research or personal interests.</p></section>
 
     <section id="projects"><h2>Projects</h2><p>Showcase your projects here.</p></section>
+
+
+    <section id="honors"><h2>Awards and honors</h2><p>List your papers/publications.</p></section>
+
+    <section id="voluntary">
+      <h2>Voluntary Projects</h2>
+    </section>
+
     <section id="papers"><h2>Papers</h2><p>List your papers/publications.</p></section>
-    <section id="interests"><h2>Interests</h2><p>Mention your research or personal interests.</p></section>
+
+  
+    
   </div>
 </div>
 
