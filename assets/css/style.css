@@ -1,3 +1,10 @@
+/* trying to debug unwanted white bar at the top right */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Make sure Jekyll loads this */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
