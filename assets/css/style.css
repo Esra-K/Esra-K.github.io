@@ -121,13 +121,16 @@ section h3 {
 }
 
 .social-icons a {
+  margin-right: 10px;
   display: inline-block;
   margin: 0 8px;
   color: #4FC3F7;
-  font-size: 24px;
+  font-size: 20px; /* changed from 24 to 20 upon adding cv link */
   text-decoration: none;
   transition: color 0.2s;
 }
+
+
 
 .social-icons a:hover {
   color: #ffffff;
