@@ -66,7 +66,7 @@ body, .sidebar, .main-content {
 .main-content {
   margin-left: 25%;  /* Match the sidebar width */
   padding: 20px;
-  padding-top: 20px; /* trying to fix white sidebar */
+  padding-top: 0px; /* trying to fix white sidebar */
   flex: 1;
   background-color: #222;
   color: white;
