@@ -4,9 +4,7 @@ https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
 ---
 layout: default
 ---
-<link rel="stylesheet" href="assets/css/style.css">
 
-<div class="container">
   <!--
   <div class="sidebar">
     <img src="avatar.jpeg" alt="Esra Kashaninia Photo" class="profile-pic">
@@ -31,7 +29,7 @@ layout: default
   </div>
   -->
 
-  <div class="main-content">
+  <main class="main-content">
     <!-- <nav class="navbar">
       <a href="#bio">Bio</a>
       <a href="#education">Education</a>
@@ -89,6 +87,6 @@ layout: default
 
   
     
-  </div>
-</div>
+  </main>
+
 
