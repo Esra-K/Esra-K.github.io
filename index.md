@@ -26,18 +26,24 @@ layout: default
           <i class="fas fa-file-alt"></i>
         </a>
       </div>
-
-     </div>
+    </div>
+      <nav class="sidebar-nav">
+        <a href="#bio">Bio</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#papers">Papers</a>
+        <a href="#interests">Interests</a>
+      </nav>
   </div>
 
   <div class="main-content">
-    <nav class="navbar">
+    <!-- <nav class="navbar">
       <a href="#bio">Bio</a>
       <a href="#education">Education</a>
       <a href="#projects">Projects</a>
       <a href="#papers">Papers</a>
       <a href="#interests">Interests</a>
-    </nav>
+    </nav> -->
 
     <section id="bio"><h2>Bio</h2><p>Write about yourself here.</p></section>
     <section id="education">

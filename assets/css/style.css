@@ -66,21 +66,21 @@ body, .sidebar, .main-content {
 .main-content {
   margin-left: 25%;  /* Match the sidebar width */
   padding: 20px;
-  padding-top: 0px; /* trying to fix white sidebar */
+  padding-top: 20px; /* trying to fix white sidebar */
   flex: 1;
   background-color: #222;
   color: white;
 }
 
-.navbar {
+/* .navbar {
   background-color: #333;
   padding: 10px 0;
-  /* the following two remove space above navbar */
-  margin: 0;              /* ← Remove any margin */
+  margin: 0;              
   border: none;
   margin-bottom: 20px;
   text-align: center;
-}
+} 
+
 
 .navbar a {
   color: #bbb;
@@ -91,7 +91,34 @@ body, .sidebar, .main-content {
 
 .navbar a:hover {
   color: #fff;
+} */
+
+.sidebar-nav {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;    /* vertical stacking */
+  align-items: center;       /* center links horizontally */
+  gap: 15px;                 /* space between links */
 }
+
+.sidebar-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: 100%;               /* full width of sidebar */
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-nav a:hover,
+.sidebar-nav a:focus {
+  background-color: #4FC3F7;
+  color: #111;
+}
+
 
 section {
   margin-bottom: 60px;
