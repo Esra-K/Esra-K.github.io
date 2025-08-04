@@ -11,7 +11,7 @@ layout: default
     <img src="avatar.jpeg" alt="Esra Kashaninia Photo" class="profile-pic">
     <div class="info">
       <h2>Esra Kashaninia</h2>
-      <p>Student @ Sharif University of Technology</p>
+      <p> M.Sc. Student of bioinformatics @ Sharif University of Technology </p>
       <div class="social-icons">
 	  <a href="mailto:esra.kashaninia@ce.sharif.edu" target="_blank" aria-label="Email">
 	    <i class="fa-solid fa-envelope"></i>
