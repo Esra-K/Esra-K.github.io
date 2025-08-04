@@ -1,3 +1,4 @@
+console.log("nav.js loaded");
 document.addEventListener("DOMContentLoaded", function () {
     const nav = document.getElementById("dynamic-nav");
     const sections = document.querySelectorAll("main section[id]");
