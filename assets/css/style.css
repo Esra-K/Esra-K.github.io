@@ -75,6 +75,9 @@ body, .sidebar, .main-content {
 .navbar {
   background-color: #333;
   padding: 10px 0;
+  /* the following two remove space above navbar */
+  margin: 0;              /* ← Remove any margin */
+  border: none;
   margin-bottom: 20px;
   text-align: center;
 }
