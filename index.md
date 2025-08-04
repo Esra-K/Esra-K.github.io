@@ -35,10 +35,6 @@ layout: default
         <a href="#interests">Interests</a>
       </nav> -->
 
-      <!-- replaced static navbar with dynamic navbar using nav.js dynamic-nav-->
-      <nav class="sidebar-nav" id="dynamic-nav">
-        <!-- Navigation links will be generated here -->
-      </nav>
   </div>
 
   <div class="main-content">
