@@ -102,6 +102,13 @@ section h2 {
   padding-bottom: 5px;
 }
 
+/* added for subsections and <h3> tags */
+section h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #4FC3F7;
+}
+
 /* make "Esra Kashaninia" on the sidebar bigger */
 .sidebar h2 {
   font-size: 24px;
