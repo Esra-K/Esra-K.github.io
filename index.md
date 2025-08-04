@@ -38,7 +38,7 @@ layout: default
 
     <section id="bio"><h2>Bio</h2><p>Write about yourself here.</p></section>
     <section id="education">
-      h2>Education</h2>
+      <h2>Education</h2>
 
       <h3>M.Sc. in Computer Science</h3>
       <p>Y University, 2022 – 2024</p>
