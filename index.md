@@ -1,3 +1,6 @@
+<!-- to change this page, use this link:
+https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
+
 ---
 layout: default
 ---
@@ -5,7 +8,7 @@ layout: default
 
 <div class="container">
   <div class="sidebar">
-    <img src="avatar.png" alt="Esra Kashaninia Photo" class="profile-pic">
+    <img src="avatar.jpeg" alt="Esra Kashaninia Photo" class="profile-pic">
     <div class="info">
       <h2>Esra Kashaninia</h2>
       <p>Student @ Sharif University of Technology</p>
