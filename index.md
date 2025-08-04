@@ -22,7 +22,7 @@ layout: default
         <a href="https://www.linkedin.com/in/esra-kashaninia/" target="_blank" aria-label="LinkedIn">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="cv.pdf" target="_blank" title="Download CV">
+        <a href="Esra-K-CV.pdf" target="_blank" title="Download CV">
           <i class="fas fa-file-alt"></i>
         </a>
       </div>
