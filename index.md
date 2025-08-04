@@ -7,12 +7,21 @@ layout: default
   <div class="sidebar">
     <img src="avatar.png" alt="Userx Photo" class="profile-pic">
     <div class="info">
-      <h2>Firstname Lastname</h2>
-      <p>Student @ Y University</p>
-      <p>Email: <a href="mailto:ddfs@gmail.com">ddfs@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/userx" target="_blank">userx</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/user-x" target="_blank">user-x</a></p>
-    </div>
+      <h2>Esra Kashaninia</h2>
+      <p>Student @ Sharif University of Technology</p>
+      <div class="social-icons">
+	  <a href="mailto:esra.kashaninia@ce.sharif.edu" target="_blank" aria-label="Email">
+	    <i class="fa-solid fa-envelope"></i>
+	  </a>
+	  <a href="https://github.com/Esra-K/" target="_blank" aria-label="GitHub">
+	    <i class="fa-brands fa-github"></i>
+	  </a>
+	  <a href="https://www.linkedin.com/in/esra-kashaninia-b0715b296/" target="_blank" aria-label="LinkedIn">
+	    <i class="fa-brands fa-linkedin"></i>
+	  </a>
+      </div>
+
+     </div>
   </div>
 
   <div class="main-content">
