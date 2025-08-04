@@ -7,6 +7,7 @@ layout: default
 <link rel="stylesheet" href="assets/css/style.css">
 
 <div class="container">
+  <!--
   <div class="sidebar">
     <img src="avatar.jpeg" alt="Esra Kashaninia Photo" class="profile-pic">
     <div class="info">
@@ -27,15 +28,8 @@ layout: default
         </a>
       </div>
     </div>
-      <!-- <nav class="sidebar-nav">
-        <a href="#bio">Bio</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#papers">Papers</a>
-        <a href="#interests">Interests</a>
-      </nav> -->
-
   </div>
+  -->
 
   <div class="main-content">
     <!-- <nav class="navbar">

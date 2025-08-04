@@ -10,7 +10,9 @@
   <div class="sidebar">
     {% include sidebar.html %}
   </div>
-  {{ content }}
+  <main class="main-content">
+    {{ content }}
+  </main>
   <!-- this is for dynamic navbar to work-->
   
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
