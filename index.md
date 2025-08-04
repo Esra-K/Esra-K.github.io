@@ -4,8 +4,9 @@ https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
 ---
 layout: default
 ---
+<link rel="stylesheet" href="assets/css/style.css">
 
-  <!--
+<div class="container">
   <div class="sidebar">
     <img src="avatar.jpeg" alt="Esra Kashaninia Photo" class="profile-pic">
     <div class="info">
@@ -26,10 +27,16 @@ layout: default
         </a>
       </div>
     </div>
+      <nav class="sidebar-nav">
+        <a href="#bio">Bio</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#papers">Papers</a>
+        <a href="#interests">Interests</a>
+      </nav>
   </div>
-  -->
 
-  <main class="main-content">
+  <div class="main-content">
     <!-- <nav class="navbar">
       <a href="#bio">Bio</a>
       <a href="#education">Education</a>
@@ -38,15 +45,10 @@ layout: default
       <a href="#interests">Interests</a>
     </nav> -->
 
-  <!--     
-    for the navbar to work, 
-    Make sure each section:
-    Has a unique id
-    Has a child <h2> heading
-     -->
+    <section id="bio"><h2>Bio</h2><p>Write about yourself here.</p></section>
+    <section id="education">
+      <h2>Education</h2>
 
-    <section id="bio">
-      <h2>Bio</h2>
       <h3>M.Sc. in Computer Science</h3>
       <p>Y University, 2022 – 2024</p>
       <ul>
@@ -69,24 +71,11 @@ layout: default
         <li>Math & Science Track</li>
         <li>Top 5% of class</li>
       </ul>
-      <p>Write about yourself here.</p>
     </section>
-    
-    <section id="interests"><h2>Skills & Interests</h2><p>Mention your research or personal interests.</p></section>
 
     <section id="projects"><h2>Projects</h2><p>Showcase your projects here.</p></section>
-
-
-    <section id="honors"><h2>Awards and honors</h2><p>List your papers/publications.</p></section>
-
-    <section id="voluntary">
-      <h2>Voluntary Projects</h2>
-    </section>
-
     <section id="papers"><h2>Papers</h2><p>List your papers/publications.</p></section>
-
-  
-    
-  </main>
-
+    <section id="interests"><h2>Interests</h2><p>Mention your research or personal interests.</p></section>
+  </div>
+</div>
 
