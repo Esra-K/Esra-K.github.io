@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 16px;
   margin: 0;
   padding: 0;
+}
+
+body, .sidebar, .main-content {
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -16,8 +21,9 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 300px;
+  width: 25%;
   height: 100%;
+  font-size: 16px; /* Match to .main-content or body */
   background-color: #111;
   color: white;
   text-align: center;
@@ -25,18 +31,22 @@ body {
   box-sizing: border-box;
 }
 
+/* Final CSS for .profile-pic (centered + responsive) */
+
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  max-width: 180px;
+  height: auto;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #fff;
-  margin-bottom: 15px;
+  margin: 0 auto 15px auto;   /* Center horizontally and add bottom margin */
+  display: block;             /* Needed for margin auto to work */
 }
 
 .info {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .info a {
@@ -45,7 +55,7 @@ body {
 }
 
 .main-content {
-  margin-left: 300px;
+  margin-left: 25%;  /* Match the sidebar width */
   padding: 20px;
   flex: 1;
   background-color: #222;
@@ -103,3 +113,26 @@ section h2 {
   color: #ffffff;
 }
 
+/* You can add a media query so the sidebar stacks or collapses on small screens: */
+@media (max-width: 768px) {
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+/* Optional: Media query for even better mobile handling
+
+If you want the image to get smaller on very narrow screens (like phones):
+*/
+@media (max-width: 600px) {
+  .profile-pic {
+    width: 40%;
+    max-width: 120px;
+  }
+}
