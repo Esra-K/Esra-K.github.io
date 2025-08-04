@@ -5,7 +5,7 @@ layout: default
 
 <div class="container">
   <div class="sidebar">
-    <img src="avatar.png" alt="Userx Photo" class="profile-pic">
+    <img src="avatar.png" alt="Esra Kashaninia Photo" class="profile-pic">
     <div class="info">
       <h2>Esra Kashaninia</h2>
       <p>Student @ Sharif University of Technology</p>
@@ -16,7 +16,7 @@ layout: default
 	  <a href="https://github.com/Esra-K/" target="_blank" aria-label="GitHub">
 	    <i class="fa-brands fa-github"></i>
 	  </a>
-	  <a href="https://www.linkedin.com/in/esra-kashaninia-b0715b296/" target="_blank" aria-label="LinkedIn">
+	  <a href="https://www.linkedin.com/in/esra-kashaninia/" target="_blank" aria-label="LinkedIn">
 	    <i class="fa-brands fa-linkedin"></i>
 	  </a>
       </div>
