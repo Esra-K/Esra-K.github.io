@@ -10,7 +10,7 @@ layout: default
     <a href="#interests">Interests</a>
   </nav> -->
 <div class="main-content">
-  <section id="bio"><h2>Bio</h2><p>Write about yourself here.</p></section>
+  <section id="bio"><h2 class="visually-hidden">Bio</h2><p>Write about yourself here.</p></section>
   <section id="education">
     <h2>Education</h2>
 

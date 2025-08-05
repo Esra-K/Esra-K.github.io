@@ -137,12 +137,15 @@ section {
 }
 
 /* this was added so that list markers are indented 
-to align with everything else */ 
+to align with everything else */
 section ul,
 section ol {
-  padding-left: 1rem;      /* aligns bullets with normal text */
-  margin-left: 0;          /* remove extra margin on the left */
-  list-style-position: inside; /* makes bullet "inside" the padding */
+  padding-left: 1rem;
+  /* aligns bullets with normal text */
+  margin-left: 0;
+  /* remove extra margin on the left */
+  list-style-position: inside;
+  /* makes bullet "inside" the padding */
 }
 
 
@@ -208,4 +211,12 @@ If you want the image to get smaller on very narrow screens (like phones):
     width: 40%;
     max-width: 120px;
   }
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
