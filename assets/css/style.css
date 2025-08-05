@@ -136,11 +136,14 @@ section {
   margin-bottom: 60px;
 }
 
-/* to shift text right
-section>*:not(h2) {
-  padding-top: 5px;
-  padding-left: 20px;
-} */
+/* this was added so that list markers are indented 
+to align with everything else */ 
+section ul,
+section ol {
+  padding-left: 1rem;      /* aligns bullets with normal text */
+  margin-left: 0;          /* remove extra margin on the left */
+  list-style-position: inside; /* makes bullet "inside" the padding */
+}
 
 
 section h2 {
