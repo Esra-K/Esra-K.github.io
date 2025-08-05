@@ -20,7 +20,10 @@ body {
 body,
 .sidebar,
 .main-content {
+  /*
   font-family: 'Roboto', sans-serif;
+  */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
