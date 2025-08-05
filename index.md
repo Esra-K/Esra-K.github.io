@@ -9,7 +9,7 @@ layout: default
     <a href="#papers">Papers</a>
     <a href="#interests">Interests</a>
   </nav> -->
-
+<div class="main-content">
   <section id="bio"><h2>Bio</h2><p>Write about yourself here.</p></section>
   <section id="education">
     <h2>Education</h2>
@@ -50,5 +50,4 @@ layout: default
     <h2>Interests</h2>
     <p>Mention your research or personal interests.</p>
   </section>
-
-
+</div>
