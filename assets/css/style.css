@@ -80,6 +80,11 @@ body,
   color: white;
 }
 
+/* to add space above Bio */
+.main-content section:first-of-type {
+  margin-top: 350px;
+}
+
 /* .navbar {
   background-color: #333;
   padding: 10px 0;
