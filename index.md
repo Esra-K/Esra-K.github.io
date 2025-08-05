@@ -1,9 +1,10 @@
-<!-- to change this page, use this link:
-https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
-
 ---
 layout: default
 ---
+
+<!-- to change this page, use this link:
+https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
+
 
 <div class="main-content">
   <!-- <nav class="navbar">
