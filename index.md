@@ -2,11 +2,6 @@
 layout: default
 ---
 
-<!-- to change this page, use this link:
-https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
-
-
-<div class="main-content">
   <!-- <nav class="navbar">
     <a href="#bio">Bio</a>
     <a href="#education">Education</a>
@@ -55,5 +50,5 @@ https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
     <h2>Interests</h2>
     <p>Mention your research or personal interests.</p>
   </section>
-</div>
+
 
