@@ -69,26 +69,33 @@ layout: default
   <section id="extracurricular">
     <h2>Other activities</h2>
     <ul> 
-<li>
+<li> </li>
 <li> Enrolled in HackZurich 2020, one of Europe's biggest hackathons - Sept. 2020
+</li>
 <li> Member of Data Days 2020 assessment team and Data Days 2021 education team  --an annual data science and machine learning contest held at Sharif University of Technology
+</li>
 <li> Contribution to a few Persian Wikipedia articles
+</li>
 </ul>
   </section>
 
   <section id="honors">
   <h2> Awards & Honors </h2>
   <ul>
-  <li>
-  <li>
+  <li> 
+  </li>
+  <li> 
+  </li>
   </ul>
   </section>
 
   <section id="publications">
   <h2> Publications </h2>
   <ul>
-  <li>
-  <li>
+  <li> 
+  </li>
+  <li> 
+  </li>
   </ul>
   </section>
 </div>
