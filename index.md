@@ -4,12 +4,6 @@ https://chatgpt.com/share/6890cb27-2c98-8007-b481-202e8135ae4d -->
 ---
 layout: default
 ---
-<link rel="stylesheet" href="assets/css/style.css">
-
-<nav class="sidebar-nav" id="dynamic-nav">
-  <!-- Navigation links will be generated here -->
-</nav>
-
 
 <div class="main-content">
   <!-- <nav class="navbar">
