@@ -1,3 +1,8 @@
+/* for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 /* trying to debug unwanted white bar at the top right */
 * {
   margin: 0;
@@ -6,7 +11,7 @@
 }
 
 /* Make sure Jekyll loads this */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
   /* font-family: 'Roboto', sans-serif; */
@@ -23,7 +28,7 @@ body,
   /*
   font-family: 'Roboto', sans-serif;
   */
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .container {
@@ -68,7 +73,7 @@ body,
 }
 
 .info a {
-  color: #4FC3F7;
+  color: #4fc3f7;
   text-decoration: none;
 }
 
@@ -135,10 +140,9 @@ body,
 
 .sidebar-nav a:hover,
 .sidebar-nav a:focus {
-  background-color: #4FC3F7;
+  background-color: #4fc3f7;
   color: #111;
 }
-
 
 section {
   margin-bottom: 60px;
@@ -156,7 +160,6 @@ section ol {
   /* makes bullet "inside" the padding */
 }
 
-
 section h2 {
   border-bottom: 1px solid #444;
   padding-bottom: 5px;
@@ -166,7 +169,7 @@ section h2 {
 section h3 {
   font-size: 18px;
   margin-top: 5px;
-  color: #4FC3F7;
+  color: #4fc3f7;
 }
 
 /* make "Esra Kashaninia" on the sidebar bigger */
@@ -184,14 +187,12 @@ section h3 {
   margin-right: 10px;
   display: inline-block;
   margin: 0 8px;
-  color: #4FC3F7;
+  color: #4fc3f7;
   font-size: 20px;
   /* changed from 24 to 20 upon adding cv link */
   text-decoration: none;
   transition: color 0.2s;
 }
-
-
 
 .social-icons a:hover {
   color: #ffffff;

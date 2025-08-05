@@ -1,27 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
-  {% include head.html %}
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <!-- for fonts -->
-  <!--
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title | default: site.title }}</title>
+    {% include head.html %}
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- for fonts -->
+    <!--
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   -->
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <div class="container">
-    <div class="sidebar">
-      {% include sidebar.html %}
+  <body>
+    <div class="container">
+      <div class="sidebar">{% include sidebar.html %}</div>
+      {{ content }}
     </div>
-    {{ content }}
-  </div>
-  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
-</body>
-
+    <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/scroll-offset.js' | relative_url }}"></script>
+  </body>
 </html>
