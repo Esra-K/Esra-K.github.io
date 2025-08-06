@@ -42,14 +42,36 @@ body,
   top: 0;
   left: 0;
   width: 20%;
-  height: 100%;
-  font-size: 16px;
+  /* height: 100%; */
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Enable vertical scroll when content overflows */
+  font-size: 18px;
   /* Match to .main-content or body */
   background-color: #111;
   color: white;
   text-align: center;
   padding: 30px;
   box-sizing: border-box;
+  /* To make the sidebar scroll less visually intrusive
+   (especially on Firefox): */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #555 #111; /* Firefox */
+}
+
+/* To make the sidebar scroll less visually intrusive 
+(especially on Firefox): */
+
+.sidebar::-webkit-scrollbar {
+  width: 6px; /* Chrome/Safari */
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #111;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
 }
 
 /* Final CSS for .profile-pic (centered + responsive) */
