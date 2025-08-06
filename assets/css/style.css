@@ -58,6 +58,10 @@ body,
    (especially on Firefox): */
   scrollbar-width: thin; /* Firefox */
   scrollbar-color: #555 #111; /* Firefox */
+
+  /* for hamburger */
+  transform: translateX(0); /* desktop default: shown */
+  transition: transform 0.3s ease;
 }
 
 /* To make the sidebar scroll less visually intrusive 
@@ -253,7 +257,7 @@ section h3 {
 
 /* Hamburger button, hidden on desktop */
 .hamburger {
-  display: none;
+  display: block;
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -265,12 +269,23 @@ section h3 {
   cursor: pointer;
 }
 
+/* collapsed state: hide off-canvas */
+.sidebar.collapsed {
+  transform: translateX(-100%);
+}
+
+/* when “active” toggles it open: */
+.sidebar.active {
+  transform: translateX(0);
+}
+
+/* when sidebar is collapsed */
+.sidebar.collapsed ~ .main-content {
+  margin-left: 0;
+}
+
 /* You can add a media query so the sidebar stacks or collapses on small screens: */
 @media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
   /* for responsiveness
   .container {
     flex-direction: column;
@@ -284,21 +299,22 @@ section h3 {
     width: 80%; /* ← override to a usable width on mobile */
     height: 100vh; /* full height */
     overflow-y: auto; /* keep scrolling enabled */
-    transform: translateX(-100%);
-    transition: transform 0.3s ease;
+    /* transform: translateX(-100%); */
+    /* transition: transform 0.3s ease; */
     z-index: 1000; /* sit above main-content */
   }
 
   /* for hamburger */
   /* When active, slide it back */
-  .sidebar.active {
+  /* .sidebar.active {
     transform: translateX(0);
-  }
+  } */
 
   .main-content {
     margin-left: 0; /* important for hamburger */
     /* for responsiveness */
     /* for hamburger, changed padding from 15px to 20px */
+    transition: margin-left 0.3s ease;
     padding: 20px;
   }
 }
