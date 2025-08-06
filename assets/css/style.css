@@ -115,6 +115,7 @@ body,
   flex: 1;
   background-color: #222;
   color: white;
+  transition: margin-left 0.3s ease;
 }
 
 /* to add space above Bio */
@@ -274,10 +275,10 @@ section h3 {
   transform: translateX(-100%);
 }
 
-/* when “active” toggles it open: */
+/* when “active” toggles it open:
 .sidebar.active {
   transform: translateX(0);
-}
+} */
 
 /* when sidebar is collapsed */
 .sidebar.collapsed ~ .main-content {
@@ -314,7 +315,6 @@ section h3 {
     margin-left: 0; /* important for hamburger */
     /* for responsiveness */
     /* for hamburger, changed padding from 15px to 20px */
-    transition: margin-left 0.3s ease;
     padding: 20px;
   }
 }
