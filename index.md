@@ -89,6 +89,7 @@ layout: default
   </ul>
   </section>
 
+  <!--
   <section id="publications">
   <h2> Publications </h2>
   <ul>
@@ -108,4 +109,5 @@ layout: default
   </li>
   </ul>
   </section>
+  -->
 </div>
