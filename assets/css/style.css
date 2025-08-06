@@ -35,6 +35,8 @@ body,
 .container {
   display: flex;
   min-height: 100vh;
+  /* for responsiveness */
+  flex-direction: row;
 }
 
 .sidebar {
@@ -251,14 +253,23 @@ section h3 {
 
 /* You can add a media query so the sidebar stacks or collapses on small screens: */
 @media (max-width: 768px) {
+  /* for responsiveness */
+  .container {
+    flex-direction: column;
+  }
+
   .sidebar {
     position: relative;
     width: 100%;
     height: auto;
+    /* for responsiveness */
+    overflow: visible;
   }
 
   .main-content {
     margin-left: 0;
+    /* for responsiveness */
+    padding: 15px;
   }
 }
 
