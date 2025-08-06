@@ -23,17 +23,11 @@
   </head>
 
   <body>
-    <!-- Hamburger menu -->
-    <button class="hamburger" id="sidebar-toggle" aria-label="Toggle sidebar">
-      ☰
-    </button>
-
     <div class="container">
-      <div class="sidebar" id="sidebar">{% include sidebar.html %}</div>
+      <div class="sidebar">{% include sidebar.html %}</div>
       {{ content }}
     </div>
     <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/scroll-offset.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/sidebar-toggle.js' | relative_url }}"></script>
   </body>
 </html>
