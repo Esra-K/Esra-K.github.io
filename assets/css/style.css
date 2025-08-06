@@ -17,9 +17,10 @@ body {
   /* font-family: 'Roboto', sans-serif; */
   background-color: #222;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
+  line-height: 1.7; /* slightly increased line spacing */
 }
 
 body,
@@ -91,6 +92,34 @@ body,
 /* to add space above Bio */
 .main-content section:first-of-type {
   margin-top: 250px;
+}
+
+/* Optional: increase list item spacing and size if needed */
+.main-content li {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Optional: increase paragraph spacing too */
+.main-content p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Style links inside main-content */
+.main-content a {
+  color: #a0e7ff;
+  text-decoration: none;
+}
+
+.main-content a:visited {
+  color: #dcb6ed;
+}
+
+.main-content a:hover,
+.main-content a:focus {
+  /* color: #ffffff; */
+  text-decoration: underline;
 }
 
 /* .navbar {
@@ -167,7 +196,7 @@ section h2 {
 
 /* added for subsections and <h3> tags */
 section h3 {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 5px;
   color: #4fc3f7;
 }
@@ -228,20 +257,4 @@ If you want the image to get smaller on very narrow screens (like phones):
   width: 1px;
   height: 1px;
   overflow: hidden;
-}
-
-/* Style links inside main-content */
-.main-content a {
-  color: #a0e7ff;
-  text-decoration: none;
-}
-
-.main-content a:visited {
-  color: #dcb6ed;
-}
-
-.main-content a:hover,
-.main-content a:focus {
-  color: #ffffff;
-  text-decoration: underline;
 }
