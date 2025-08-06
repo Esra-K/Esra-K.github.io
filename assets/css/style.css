@@ -251,25 +251,54 @@ section h3 {
   color: #ffffff;
 }
 
+/* Hamburger button, hidden on desktop */
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  z-index: 1001;
+  cursor: pointer;
+}
+
 /* You can add a media query so the sidebar stacks or collapses on small screens: */
 @media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
   /* for responsiveness */
   .container {
     flex-direction: column;
   }
 
   .sidebar {
-    position: relative;
-    width: 100%;
+    /* commented 4 hamburger */
+    /* position: relative;
+    width: 100%; */
     height: auto;
     /* for responsiveness */
     overflow: visible;
+    /* for hamburger */
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  /* for hamburger */
+  /* When active, slide it back */
+  .sidebar.active {
+    transform: translateX(0);
   }
 
   .main-content {
-    margin-left: 0;
+    margin-left: 0; /* important for hamburger */
     /* for responsiveness */
-    padding: 15px;
+    /* for hamburger, changed padding from 15px to 20px */
+    padding: 20px;
   }
 }
 
