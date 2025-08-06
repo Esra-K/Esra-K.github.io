@@ -62,6 +62,7 @@ body,
   /* for hamburger */
   transform: translateX(0); /* desktop default: shown */
   transition: transform 0.3s ease;
+  z-index: 1000;
 }
 
 /* To make the sidebar scroll less visually intrusive 
@@ -303,6 +304,9 @@ section h3 {
     /* transform: translateX(-100%); */
     /* transition: transform 0.3s ease; */
     z-index: 1000; /* sit above main-content */
+    transform: translateX(0); /* sidebar is visible by default */
+    /* for hamburger */
+    transition: transform 0.3s ease;
   }
 
   /* for hamburger */
@@ -316,6 +320,10 @@ section h3 {
     /* for responsiveness */
     /* for hamburger, changed padding from 15px to 20px */
     padding: 20px;
+  }
+  /* for hamburger */
+  .sidebar.collapsed {
+    transform: translateX(-100%); /* collapsed state hides it */
   }
 }
 
