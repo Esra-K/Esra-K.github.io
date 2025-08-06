@@ -78,7 +78,7 @@ layout: default
 </li>
 </ul>
   </section>
-
+  <!--
   <section id="honors">
   <h2> Awards & Honors </h2>
   <ul>
@@ -89,7 +89,6 @@ layout: default
   </ul>
   </section>
 
-  <!--
   <section id="publications">
   <h2> Publications </h2>
   <ul>
