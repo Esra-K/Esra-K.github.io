@@ -232,12 +232,12 @@ If you want the image to get smaller on very narrow screens (like phones):
 
 /* Style links inside main-content */
 .main-content a {
-  color: #4fc3f7;
+  color: #a0e7ff;
   text-decoration: none;
 }
 
 .main-content a:visited {
-  color: #a0e7ff;
+  color: #dcb6ed;
 }
 
 .main-content a:hover,
