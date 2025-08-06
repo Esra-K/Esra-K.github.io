@@ -253,7 +253,7 @@ section h3 {
 
 /* Hamburger button, hidden on desktop */
 .hamburger {
-  display: block;
+  display: none;
   position: fixed;
   top: 1rem;
   left: 1rem;
