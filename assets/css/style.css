@@ -229,3 +229,19 @@ If you want the image to get smaller on very narrow screens (like phones):
   height: 1px;
   overflow: hidden;
 }
+
+/* Style links inside main-content */
+.main-content a {
+  color: #4fc3f7;
+  text-decoration: none;
+}
+
+.main-content a:visited {
+  color: #a0e7ff;
+}
+
+.main-content a:hover,
+.main-content a:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
