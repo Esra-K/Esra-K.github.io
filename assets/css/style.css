@@ -285,7 +285,7 @@ section h3 {
     /* end of for hamburger */
 
     width: 100%;
-    height: auto;
+    /* height: auto; */
     /* for responsiveness */
     overflow: visible;
   }
