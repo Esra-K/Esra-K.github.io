@@ -13,7 +13,7 @@ layout: default
   <section id="bio">
   <h2 class="visually-hidden">Bio</h2>
   <p>
-  Hi. My name’s Esra and I write ML/DL programs, particularly in the fields of NLP and bioinformatics. I’m a master’s student at Sharif University of Technology, studying bioinformatics and doing research on improving protein language models at the Language ML lab, under Dr. E. Asgari’s supervision. Earlier I’d completed my B.Sc. in computer science at Sharif University, working on the prediction of associations in heterogeneous biological networks using graph learning. I’m also proficient in database and web design through the jobs I have taken.
+  Hi. My name’s Esra Kashaninia and I write ML/DL programs, particularly in the fields of NLP and bioinformatics. I’m a master’s student at Sharif University of Technology, studying bioinformatics and doing research on improving protein language models at the Language ML lab, under Dr. E. Asgari’s supervision. Earlier I’d completed my B.Sc. in computer science at Sharif University, working on the prediction of associations in heterogeneous biological networks using graph learning. I’m also proficient in database and web design through the jobs I have taken.
   </p>
   </section>
   <section id="experience">
