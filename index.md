@@ -67,7 +67,7 @@ layout: default
 
   </section>
   <section id="extracurricular">
-    <h2>Other</h2>
+    <h2>Extracurricular Activities</h2>
     <ul> 
 <li> Co-implemented a QA pipleline for tabluar data (a solution to <a href="https://github.com/language-ml/SemEval2025-Task8">SemEval 2025 task 8</a>)</li>
 <li> Enrolled in HackZurich 2020, one of Europe's biggest hackathons - Sept. 2020
