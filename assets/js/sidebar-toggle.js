@@ -1,10 +1,13 @@
-// for hamburger
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.getElementById("sidebar-toggle");
   const sidebar = document.getElementById("sidebar");
 
   function updateButtonText() {
-    if (sidebar.classList.contains("collapsed")) {
+    // If sidebar is collapsed (desktop) or hidden (mobile)
+    if (
+      sidebar.classList.contains("collapsed") ||
+      !sidebar.classList.contains("active")
+    ) {
       toggleButton.textContent = "☰"; // Hamburger
     } else {
       toggleButton.textContent = "✕"; // Cross
@@ -12,9 +15,20 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   toggleButton.addEventListener("click", function () {
-    sidebar.classList.toggle("collapsed");
+    // Always toggle "active" for mobile slide-in
+    sidebar.classList.toggle("active");
+
+    // For desktop: toggle "collapsed"
+    if (window.innerWidth > 768) {
+      sidebar.classList.toggle("collapsed");
+    }
+
     updateButtonText();
   });
 
-  updateButtonText(); // Set initial state
+  // Update icon on load
+  updateButtonText();
+
+  // Optional: update icon if window resizes across breakpoint
+  window.addEventListener("resize", updateButtonText);
 });

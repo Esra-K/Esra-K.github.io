@@ -288,10 +288,13 @@ section h3 {
 
 /* You can add a media query so the sidebar stacks or collapses on small screens: */
 @media (max-width: 768px) {
-  /* for responsiveness
+  .hamburger {
+    display: block;
+  }
+  /* for responsiveness */
   .container {
     flex-direction: column;
-  } */
+  }
 
   .sidebar {
     /* changed it all for hamburger */
@@ -306,22 +309,24 @@ section h3 {
     /* transform: translateX(-100%); */
     /* transition: transform 0.3s ease; */
     z-index: 1000; /* sit above main-content */
-    transform: translateX(0); /* sidebar is visible by default */
+    transform: translateX(-100%); /* sidebar is visible by default */
     /* for hamburger */
     transition: transform 0.3s ease;
   }
 
   /* for hamburger */
   /* When active, slide it back */
-  /* .sidebar.active {
+  .sidebar.active {
     transform: translateX(0);
-  } */
+  }
 
   .main-content {
     margin-left: 0; /* important for hamburger */
     /* for responsiveness */
     /* for hamburger, changed padding from 15px to 20px */
-    padding: 20px;
+    /* padding: 20px; */
+    position: relative;
+    z-index: 0;
   }
   /* for hamburger */
   .sidebar.collapsed {
