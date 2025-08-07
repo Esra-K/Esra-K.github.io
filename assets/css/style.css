@@ -299,6 +299,8 @@ section h3 {
     top: 0;
     left: 0;
     width: 80%; /* ← override to a usable width on mobile */
+    /* to stop it from getting too big */
+    max-width: 20px;
     height: 100vh; /* full height */
     overflow-y: auto; /* keep scrolling enabled */
     /* transform: translateX(-100%); */
