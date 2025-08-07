@@ -1,11 +1,20 @@
 // for hamburger
-document.addEventListener("DOMContentLoaded", () => {
-  const toggle = document.getElementById("sidebar-toggle");
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("sidebar-toggle");
   const sidebar = document.getElementById("sidebar");
 
-  toggle.addEventListener("click", () => {
-    console.log("Hamburger clicked");
+  function updateButtonText() {
+    if (sidebar.classList.contains("collapsed")) {
+      toggleButton.textContent = "☰"; // Hamburger
+    } else {
+      toggleButton.textContent = "✕"; // Cross
+    }
+  }
+
+  toggleButton.addEventListener("click", function () {
     sidebar.classList.toggle("collapsed");
-    sidebar.classList.toggle("active");
+    updateButtonText();
   });
+
+  updateButtonText(); // Set initial state
 });
