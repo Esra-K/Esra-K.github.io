@@ -3,11 +3,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const sidebar = document.getElementById("sidebar");
 
   function updateButtonText() {
-    // If sidebar is collapsed (desktop) or hidden (mobile)
-    if (
-      sidebar.classList.contains("collapsed") ||
-      !sidebar.classList.contains("active")
-    ) {
+    // If sidebar is collapsed (desktop) or not active (mobile)
+    const isCollapsedDesktop =
+      window.innerWidth > 768 && sidebar.classList.contains("collapsed");
+    const isHiddenMobile =
+      window.innerWidth <= 768 && !sidebar.classList.contains("active");
+
+    if (isCollapsedDesktop || isHiddenMobile) {
       toggleButton.textContent = "☰"; // Hamburger
     } else {
       toggleButton.textContent = "✕"; // Cross
@@ -15,10 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   toggleButton.addEventListener("click", function () {
-    // Always toggle "active" for mobile slide-in
+    // Always toggle "active" (for mobile visibility)
     sidebar.classList.toggle("active");
 
-    // For desktop: toggle "collapsed"
+    // For desktop: toggle "collapsed" class
     if (window.innerWidth > 768) {
       sidebar.classList.toggle("collapsed");
     }
@@ -29,6 +31,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Update icon on load
   updateButtonText();
 
-  // Optional: update icon if window resizes across breakpoint
+  // Also update icon when resizing the window
   window.addEventListener("resize", updateButtonText);
 });
