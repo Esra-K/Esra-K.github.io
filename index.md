@@ -67,9 +67,9 @@ layout: default
 
   </section>
   <section id="extracurricular">
-    <h2>Other activities</h2>
+    <h2>Other</h2>
     <ul> 
-<li> </li>
+<li> Co-implemented a QA pipleline for tabluar data (a solution to <a href="https://github.com/language-ml/SemEval2025-Task8">SemEval 2025 task 8</a>)</li>
 <li> Enrolled in HackZurich 2020, one of Europe's biggest hackathons - Sept. 2020
 </li>
 <li> Member of Data Days 2020 assessment team and Data Days 2021 education team  --an annual data science and machine learning contest held at Sharif University of Technology
