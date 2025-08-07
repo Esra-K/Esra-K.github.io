@@ -92,7 +92,7 @@ layout: default
   <section id="publications">
   <h2> Publications </h2>
   <ul>
-  <li> 
+  <li> Kouhsar, M., Kashaninia, E., Mardani, B. et al. CircWalk: a novel approach to predict CircRNA-disease association based on heterogeneous network representation learning. BMC Bioinformatics 23, 331 (2022). <a href="https://doi.org/10.1186/s12859-022-04883-9">https://doi.org/10.1186/s12859-022-04883-9</a>
   </li>
   <li> 
   </li>
