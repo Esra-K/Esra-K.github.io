@@ -85,7 +85,7 @@ body,
 
 .profile-pic {
   width: 60%;
-  max-width: 180px;
+  max-width: 240px;
   /*height: auto; */
   aspect-ratio: 1 / 1;
   /*Ensures width == height */
@@ -340,8 +340,8 @@ If you want the image to get smaller on very narrow screens (like phones):
 */
 @media (max-width: 600px) {
   .profile-pic {
-    width: 55%;
-    max-width: 120px;
+    width: 40%;
+    max-width: 160px;
   }
 }
 
