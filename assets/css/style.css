@@ -228,7 +228,7 @@ section h2 {
 section h3 {
   font-size: 20px;
   margin-top: 5px;
-  color: #4fc3f7;
+  color: #ffffff;
 }
 
 /* make "Esra Kashaninia" on the sidebar bigger */
@@ -340,7 +340,7 @@ If you want the image to get smaller on very narrow screens (like phones):
 */
 @media (max-width: 600px) {
   .profile-pic {
-    width: 40%;
+    width: 55%;
     max-width: 120px;
   }
 }
