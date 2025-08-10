@@ -36,9 +36,9 @@ layout: default
   <div>
     <h3>DEF</h3>
     <ul>
-      <li>foo</li>
-      <li>bar</li>
-      <li>baz</li>
+      <li>Lorem Ipsum doesn’t exist because people think the content is meaningless window dressing, only there to be decorated by designers who can’t be bothered to read. Lorem Ipsum exists because words are powerful.</li>
+      <li> If you fill up your page with draft copy about your client’s business, they will read it.</li>
+      <li> They will comment on it. They will be inexorably drawn to it. Presented the wrong way, draft copy can send your design review off the rails.</li>
     </ul>
   </div>
   
