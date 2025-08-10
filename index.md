@@ -13,7 +13,7 @@ layout: default
   <section id="bio">
   <h2 class="visually-hidden">Bio</h2>
   <p>
-  Hi. My name’s Esra Kashaninia and I write ML/DL programs, particularly in the fields of NLP and bioinformatics. I’m a master’s student at Sharif University of Technology, studying bioinformatics and doing research on improving protein language models at the Language ML lab, under Dr. E. Asgari’s supervision. Earlier I’d completed my B.Sc. in computer science at Sharif University, working on the prediction of associations in heterogeneous biological networks using graph learning. I’m also proficient in database and web design through the jobs I have taken.
+  Hi. My name’s Esra Kashaninia and I write ML/DL programs, particularly in the fields of NLP and bioinformatics. I’m a master’s student at Sharif University of Technology, studying bioinformatics and doing research on improving protein language models at the Language ML lab, under Dr. E. Asgari’s supervision. Earlier I’d completed my B.Sc. in computer science at Sharif University, working on the prediction of associations in heterogeneous biological networks using graph learning. I’m also proficient in database and web design through the jobs I have taken. 
   </p>
   </section>
   <section id="experience">
@@ -26,44 +26,144 @@ layout: default
     <p>Showcase your projects here.</p>
   </section>
   <section id="projects">
-    <h2>Projects</h2>
-    <h3> ML/DL </h3>
-<ul>
- <li>Language modeling of stock market signals for market prediction - <a href="https://github.com/Esra-K/MSc-Coursework/tree/master/NLP-Fall2023/NLP_proj_LLMs_4_financial_data"> NLP project </a> - fall 2023</li>
-  <li>Implementing various models and training techniques, notably generative ones - <a href="https://github.com/Esra-K/MSc-Coursework/tree/master/Deep%20Learning-Spring2024"> deep learning coursework </a> - spring 2024 such as <a href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW4-Practical/DlHw4-402210676/DDPM.ipynb">DDPM</a>, 
-    <a href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW5-Practical/Stable-Diffusion-2.ipynb">Stable Diffusion with DreamBooth</a>, and a simplified 
-    <a href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW3-Practical/HW3Practical-402210676/SimpleGPT.ipynb">GPT</a>
-  </li>
-  <li>Predicting the click rate of web ads using factorization machines (machine learning project) - fall 2020</li>
-  <li>Study of the factors influencing the market value of soccer players using linear regression on the FIFA 20 player dataset (econometrics project) - spring 2020</li>
-  <li>Scraping, indexing, and querying webpages from Semantic Scholar using Scrapy and Elasticsearch in Python (modern information retrieval project - phase 3) - spring 2020</li>
-  <li>Document classification and clustering by the methods of naive Bayes, KNN and K-Means from scratch and by the methods of SVM and Random Forest using scikit-learn in Python (modern information retrieval project - phase 2) - spring 2020</li>
-  <li>Implementation of document indexing, retrieval and ranking in Python by the methods of cosine similarity and ranking SVM (modern information retrieval project - phase 1) - spring 2020</li>
-  <li>Gene expression profiling of acute myeloid leukemia samples from adult patients (introduction to bioinformatics project) - spring 2019</li>
-  <li>Handwritten digit recognition on the MNIST dataset using a kernel perceptron in Python. (AI project) - fall 2018</li>
-  <li>Facial expression recognition in MIPS assembly using Raspberry Pi (computer structure and language project) - fall 2017</li>
-  <li>News classification using word frequency vectors in C (fundamentals of programming project) - fall 2016</li>
-</ul>
+  <h2>Projects</h2>
+  <h3>ML/DL</h3>
+  <ul>
+    <li>
+      Language modeling of stock market signals for market prediction -
+      <a href="https://github.com/NLP-Final-Projects/LLMs_for_financial_data">
+        NLP project
+      </a>
+      - fall 2023
+    </li>
+    <li>
+      Implementing various models and training techniques, notably generative
+      ones -
+      <a
+        href="https://github.com/Esra-K/MSc-Coursework/tree/master/Deep%20Learning-Spring2024"
+      >
+        deep learning coursework
+      </a>
+      - spring 2024 such as
+      <a
+        href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW4-Practical/DlHw4-402210676/DDPM.ipynb"
+        >DDPM</a
+      >,
+      <a
+        href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW5-Practical/Stable-Diffusion-2.ipynb"
+        >Stable Diffusion with DreamBooth</a
+      >, and a simplified
+      <a
+        href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW3-Practical/HW3Practical-402210676/SimpleGPT.ipynb"
+        >GPT</a
+      >
+    </li>
+    <li>
+      Predicting the click rate of web ads using factorization machines (<a
+        href="https://github.com/Esra-K/BSc-Coursework/tree/main/ML_Fall2020/Project"
+        >machine learning project</a
+      >) - fall 2020
+    </li>
+    <li>
+      Study of the factors influencing the market value of soccer players using
+      linear regression on the FIFA 20 player dataset (<a
+        href="https://gitlab.com/Esra_K/econometrics_fifa"
+        >econometrics project</a
+      >) - spring 2020
+    </li>
+    <li>
+      Scraping, indexing, and querying webpages from Semantic Scholar using
+      Scrapy and Elasticsearch in Python (<a
+        href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project3"
+        >modern information retrieval project</a
+      >
+      - phase 3) - spring 2020
+    </li>
+    <li>
+      Document classification and clustering by the methods of naive Bayes, KNN
+      and K-Means from scratch and by the methods of SVM and Random Forest using
+      scikit-learn in Python (<a
+        href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project2"
+        >modern information retrieval project</a
+      >
+      - phase 2) - spring 2020
+    </li>
+    <li>
+      Implementation of document indexing, retrieval and ranking in Python by
+      the methods of cosine similarity and ranking SVM (<a
+        href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project1"
+        >modern information retrieval project</a
+      >
+      - phase 1) - spring 2020
+    </li>
+    <li>
+      Gene expression profiling of acute myeloid leukemia samples from adult
+      patients (<a
+        href="https://github.com/Esra-K/BSc-Coursework/tree/main/Intro2Bioinformatics_Spring2019/Project"
+        >introduction to bioinformatics project</a
+      >) - spring 2019
+    </li>
+    <li>
+      Handwritten digit recognition on the MNIST dataset using a kernel
+      perceptron in Python. (<a
+        href="https://github.com/Esra-K/BSc-Coursework/tree/main/AI_Fall2018/Project"
+      >
+        AI project</a
+      >) - fall 2018
+    </li>
+    <li>
+      Facial expression recognition in MIPS assembly using Raspberry Pi
+      (computer structure and language project) - fall 2017
+    </li>
+    <li>
+      News classification using word frequency vectors in C (<a
+        href="https://github.com/fop-fall2016/team19"
+        >fundamentals of programming project</a
+      >) - fall 2016
+    </li>
+  </ul>
 
-<h3> Economics </h3>
-<ul>
-  <li>A paper on modeling international agreements on climate change as a threshold public goods game (game theory project) - spring 2020</li>
-  <li>An analysis on Iran's automotive industry, its issues, and remedies (macroeconomics project) - spring 2020</li>
-  <li>A review on the Human Capital Project (economic growth project) - fall 2019</li>
-</ul>
+  <h3>IT</h3>
+  <ul>
+    <li>
+      Book exchange website (<a href="https://github.com/Esra-K/Shabook"
+        >system analysis and design project</a
+      >) - spring 2019
+    </li>
+    <li>
+      P2P network simulation in Python (<a
+        href="https://github.com/Esra-K/BSc-Coursework/tree/main/ComputerNetworks_Fall2018/CN_Project_95105816_94105677/src"
+        >computer networks project</a
+      >) - fall 2018
+    </li>
+  </ul>
 
-<h3> IT </h3>
-<ul>
-  <li>Book exchange website (system analysis and design project) - spring 2019</li>
-  <li>P2P network simulation in Python (computer networks project) - fall 2018</li>
-</ul>
-
-<h3> Other </h3>
-<ul>
-  <li>The addition of Persian UI to three open-source Android apps - spring 2021</li>
-  <li>Random number generator for common probability distributions in R (probability and statistics for engineering project) - fall 2017</li>
-  <li>Alien Creeps game in Java (advanced programming project) - fall 2017</li>
-</ul>
+  <h3>Other</h3>
+  <ul>
+    <li>
+      The addition of Persian UI to three open-source Android apps (<a
+        href="https://github.com/Esra-K/FDroidFA"
+        >OS project</a
+      >) - spring 2021
+    </li>
+    <li>
+      Random number generator for common probability distributions in R (<a
+        href="https://github.com/Esra-K/Probability-and-Stats-Proj-Fall-2017"
+      >
+        probability and statistics for engineering project</a
+      >) - fall 2017
+    </li>
+    <li>
+      Alien Creeps game in Java (<a
+        href="https://github.com/Sharif-University-AP2017Fall/team10"
+        >advanced programming project</a
+      >) - fall 2017
+    </li>
+    <li>
+      A talk on modeling international agreements on climate change as a
+      threshold public goods game (game theory project) - spring 2020
+    </li>
+  </ul>
 
   </section>
   <section id="extracurricular">
