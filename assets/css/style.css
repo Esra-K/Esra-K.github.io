@@ -153,36 +153,18 @@ body,
 
 /* added interests section for the 2 * 3 grid */
 #interests {
-  padding: 20px;
-}
-
-#interests h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.interests-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
-  grid-template-rows: repeat(2, auto); /* 2 rows, height auto */
-  gap: 20px; /* space between grid cells */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows, auto height */
+  gap: 20px; /* space between items */
 }
 
-.interests-grid > div {
-  /* background: #f8f8f8;  optional for visual separation */
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#interests > div {
+  padding: 10px;
+  border: 1px solid #ddd; /* optional, for separation */
+  border-radius: 5px;
 }
 
-.interests-grid h3 {
-  margin-top: 0;
-}
-
-.interests-grid ul {
-  padding-left: 20px;
-  margin: 0;
-}
 /* End of added interests section for the 2 * 3 grid */
 
 /* .navbar {

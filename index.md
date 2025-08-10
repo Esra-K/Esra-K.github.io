@@ -22,58 +22,63 @@ layout: default
   </section>
 
   <section id="interests">
-    <h2>Skills & Interests</h2>
-      <div class="interests-grid">
-    <div>
-      <h3>ABC</h3>
-      <ul>
-        <li>foo</li>
-        <li>bar</li>
-        <li>baz</li>
-      </ul>
-    </div>
-    <div>
-      <h3>DEF</h3>
-      <ul>
-        <li>foo</li>
-        <li>bar</li>
-        <li>baz</li>
-      </ul>
-    </div>
-    <div>
-      <h3>GHI</h3>
-      <ul>
-        <li>foo</li>
-        <li>bar</li>
-        <li>baz</li>
-      </ul>
-    </div>
-    <div>
-      <h3>JKL</h3>
-      <ul>
-        <li>foo</li>
-        <li>bar</li>
-        <li>baz</li>
-      </ul>
-    </div>
-    <div>
-      <h3>MNO</h3>
-      <ul>
-        <li>foo</li>
-        <li>bar</li>
-        <li>baz</li>
-      </ul>
-    </div>
-    <div>
-      <h3>PQR</h3>
-      <ul>
-        <li>foo</li>
-        <li>bar</li>
-        <li>baz</li>
-      </ul>
-    </div>
+  <h2>Skills & Interests</h2>
+  
+  <div>
+    <h3>ABC</h3>
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+    </ul>
   </div>
-  </section>
+  
+  <div>
+    <h3>DEF</h3>
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+    </ul>
+  </div>
+  
+  <div>
+    <h3>GHI</h3>
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+    </ul>
+  </div>
+  
+  <div>
+    <h3>JKL</h3>
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+    </ul>
+  </div>
+  
+  <div>
+    <h3>MNO</h3>
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+    </ul>
+  </div>
+  
+  <div>
+    <h3>PQR</h3>
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+    </ul>
+  </div>
+ </section>
+
   <section id="projects">
   <h2>Projects</h2>
   <h3>ML/DL</h3>
