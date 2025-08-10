@@ -169,7 +169,7 @@ body,
 }
 
 .interests-grid > div {
-  background: #f8f8f8; /* optional for visual separation */
+  /* background: #f8f8f8;  optional for visual separation */
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
