@@ -163,6 +163,18 @@ body,
   padding: 10px;
   border: none;
   background: none;
+  /* for animation */
+  opacity: 0; /* Start hidden */
+  transform: translateX(50px); /* Slide in from right */
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+/* for animation */
+.skills-grid > div.slide-in {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .skills-grid ul {
