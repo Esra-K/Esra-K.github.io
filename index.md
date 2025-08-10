@@ -75,26 +75,26 @@ layout: default
       Scraping, indexing, and querying webpages from Semantic Scholar using
       Scrapy and Elasticsearch in Python (<a
         href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project3"
-        >modern information retrieval project</a
-      >
-      - phase 3) - spring 2020
+        >modern information retrieval project 
+      - phase 3</a
+      >) - spring 2020
     </li>
     <li>
       Document classification and clustering by the methods of naive Bayes, KNN
       and K-Means from scratch and by the methods of SVM and Random Forest using
       scikit-learn in Python (<a
         href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project2"
-        >modern information retrieval project</a
-      >
-      - phase 2) - spring 2020
+        >modern information retrieval project 
+      - phase 2</a
+      >) - spring 2020
     </li>
     <li>
       Implementation of document indexing, retrieval and ranking in Python by
       the methods of cosine similarity and ranking SVM (<a
         href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project1"
-        >modern information retrieval project</a
-      >
-      - phase 1) - spring 2020
+        >modern information retrieval project 
+      - phase 1</a
+      >) - spring 2020
     </li>
     <li>
       Gene expression profiling of acute myeloid leukemia samples from adult
@@ -168,11 +168,11 @@ layout: default
   </section>
   <section id="extracurricular">
     <h2>Extracurricular Activities</h2>
-    <ul> 
+    <ul>
 <li> Co-implemented a QA pipleline for tabluar data (a solution to <a href="https://github.com/language-ml/SemEval2025-Task8">SemEval 2025 task 8</a>)</li>
-<li> Enrolled in HackZurich 2020, one of Europe's biggest hackathons - Sept. 2020
+<li> <a href="https://devpost.com/software/save-a-life-v2r6sg">Enrolled in HackZurich 2020</a>, one of Europe's biggest hackathons - Sept. 2020
 </li>
-<li> Member of Data Days 2020 assessment team and Data Days 2021 education team  --an annual data science and machine learning contest held at Sharif University of Technology
+<li> Member of <a href="https://datadays-content.github.io/Part%202.%20Machine%20Learning/End2End%20ML%20Project.html">Data Days 2020 assessment team</a> and Data Days 2021 education team  --an annual data science and machine learning contest held at Sharif University of Technology
 </li>
 <li> Contribution to a few Persian Wikipedia articles
 </li>
