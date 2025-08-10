@@ -23,7 +23,7 @@ layout: default
 
   <section id="interests">
   <h2>Skills & Interests</h2>
-  
+  <div class="interests-grid">
   <div>
     <h3>ABC</h3>
     <ul>
@@ -76,6 +76,7 @@ layout: default
       <li>bar</li>
       <li>baz</li>
     </ul>
+  </div>
   </div>
  </section>
 

@@ -152,19 +152,18 @@ body,
 }
 
 /* added interests section for the 2 * 3 grid */
-#interests {
+.interests-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  grid-template-rows: repeat(2, auto); /* 2 rows, auto height */
-  gap: 20px; /* space between items */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-#interests > div {
+.interests-grid > div {
   padding: 10px;
-  border: 1px solid #ddd; /* optional, for separation */
+  border: 1px solid #ddd;
   border-radius: 5px;
+  background: none; /* no white background */
 }
-
 /* End of added interests section for the 2 * 3 grid */
 
 /* .navbar {
