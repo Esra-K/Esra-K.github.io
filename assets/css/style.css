@@ -152,6 +152,7 @@ body,
 }
 
 /* added skills section for the 2 * 3 grid */
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -165,9 +166,23 @@ body,
 }
 
 .skills-grid ul {
-  list-style-position: inside; /* keeps bullets aligned with text */
-  padding-left: 0; /* removes default indent */
-  margin: 0; /* removes extra space above/below */
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Tablets (≤ 1024px) — 2 columns */
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile (≤ 600px) — 1 column */
+@media (max-width: 600px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
 /* End of added skills section for the 2 * 3 grid */
 
