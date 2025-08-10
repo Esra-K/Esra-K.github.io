@@ -171,19 +171,6 @@ body,
   margin: 0;
 }
 
-/* Tablets (≤ 1024px) — 2 columns */
-@media (max-width: 1024px) {
-  .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobile (≤ 600px) — 1 column */
-@media (max-width: 600px) {
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-}
 /* End of added skills section for the 2 * 3 grid */
 
 /* .navbar {
@@ -365,6 +352,10 @@ section h3 {
   /* for hamburger */
   .sidebar.collapsed {
     transform: translateX(-100%); /* collapsed state hides it */
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
