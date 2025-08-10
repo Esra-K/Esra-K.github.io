@@ -160,9 +160,8 @@ body,
 
 .interests-grid > div {
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background: none; /* no white background */
+  border: none; /* removed border */
+  background: none; /* removed white background */
 }
 /* End of added interests section for the 2 * 3 grid */
 
