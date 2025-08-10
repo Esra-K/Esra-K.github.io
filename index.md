@@ -21,9 +21,9 @@ layout: default
 
   </section>
 
-  <section id="interests">
+  <section id="skills">
   <h2>Skills & Interests</h2>
-  <div class="interests-grid">
+  <div class="skills-grid">
   <div>
     <h3>ABC</h3>
     <ul>
