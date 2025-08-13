@@ -32,72 +32,48 @@ layout: default
     <h2>Skills & Interests</h2>
     <div class="skills-grid">
       <div>
-        <h3>ABC</h3>
+        <h3>Programming languages</h3>
         <ul>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
+          <li data-percent="90">Python</li>        <!-- preferred -->
+          <li data-percent="70">R</li>
         </ul>
       </div>
-
       <div>
-        <h3>DEF</h3>
+        <h3>Programming languages</h3>
         <ul>
-          <li>
-            Lorem Ipsum doesn’t exist because people think the content is
-            meaningless window dressing, only there to be decorated by designers
-            who can’t be bothered to read. Lorem Ipsum exists because words are
-            powerful.
-          </li>
-          <li>
-            If you fill up your page with draft copy about your client’s
-            business, they will read it.
-          </li>
-          <li>
-            They will comment on it. They will be inexorably drawn to it.
-            Presented the wrong way, draft copy can send your design review off
-            the rails.
-          </li>
+          <li data-percent="90">Python</li>        <!-- preferred -->
+          <li data-percent="70">R</li>
         </ul>
       </div>
-
       <div>
-        <h3>GHI</h3>
+        <h3>Programming languages</h3>
         <ul>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
+          <li data-percent="90">Python</li>        <!-- preferred -->
+          <li data-percent="70">R</li>
         </ul>
       </div>
-
       <div>
-        <h3>JKL</h3>
+        <h3>Programming languages</h3>
         <ul>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
+          <li data-percent="90">Python</li>        <!-- preferred -->
+          <li data-percent="70">R</li>
         </ul>
       </div>
-
       <div>
-        <h3>MNO</h3>
+        <h3>Programming languages</h3>
         <ul>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
+          <li data-percent="90">Python</li>        <!-- preferred -->
+          <li data-percent="70">R</li>
         </ul>
       </div>
-
       <div>
-        <h3>PQR</h3>
+        <h3>Programming languages</h3>
         <ul>
-          <li>foo</li>
-          <li>bar</li>
-          <li>baz</li>
+          <li data-percent="90">Python</li>        <!-- preferred -->
+          <li data-percent="70">R</li>
         </ul>
       </div>
-    </div>
-
+      </div>
   </section>
 
   <section id="projects">
@@ -126,13 +102,10 @@ layout: default
           href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW3-Practical/HW3Practical-402210676/SimpleGPT.ipynb"
           >GPT</a
         >
-        ()
-        <a
+        (<a
           href="https://github.com/Esra-K/MSc-Coursework/tree/master/Deep%20Learning-Spring2024"
-        >
-          deep learning coursework
-        </a>
-        ) spring 2024
+        >deep learning coursework</a
+        >) spring 2024
       </li>
       <li>
         Scraping, indexing, and querying webpages from Semantic Scholar using
@@ -288,7 +261,7 @@ layout: default
       <li>English: ranked 18th among +6,000</li>
     </ul>
     <br>
-    <h3>Nationwide Exams For M.Sc. admissions- Sept. 2023</h3>
+    <h3>Nationwide Exams For M.Sc. admissions - Sept. 2023</h3>
     <ul>
       <li>Bioinformatics: ranked 98th among +10,000 (without really trying :))</li>
     </ul>
