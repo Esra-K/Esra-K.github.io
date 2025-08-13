@@ -158,6 +158,7 @@ layout: default
       </li>
     </ul>
 
+    <br>
     <h3>Bioinformatics</h3>
     <ul>
       <li>
@@ -172,6 +173,7 @@ layout: default
       </li>
     </ul>
 
+    <br>
     <h3>ML/Stats</h3>
     <ul>
       <li>
@@ -207,6 +209,7 @@ layout: default
       </li>
     </ul>
 
+    <br>
     <h3>Software/IT</h3>
     <ul>
       <li>
@@ -241,6 +244,7 @@ layout: default
       </li>
     </ul>
 
+    <br>
     <h3>Extracurricular Activities</h3>
     <ul>
       <li>
@@ -283,6 +287,11 @@ layout: default
       <li>Mathematics and Physics: ranked 25th among +164,000</li>
       <li>English: ranked 18th among +6,000</li>
     </ul>
+    <br>
+    <h3>Nationwide Exams For M.Sc. admissions- Sept. 2016</h3>
+    <ul>
+      <li>Bioinformatics: ranked 98th among +10,000 (without really trying :))</li>
+    </ul>
   </section>
 
   <section id="publications">
@@ -299,15 +308,5 @@ layout: default
       <li></li>
     </ul>
   </section>
-  <!--
-  <section id="presentations">
-  <h2> Presentation Files </h2>
-  <ul>
-  <li> 
-  </li>
-  <li> 
-  </li>
-  </ul>
-  </section>
-  -->
+
 </div>
