@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.getElementById("sidebar-toggle");
-  const sidebar = document.querySelector(".sidebar"); // now by class
+  const sidebar = document.getElementById("sidebar");
 
   function updateButtonText() {
     // If sidebar is collapsed (desktop) or not active (mobile)
@@ -33,21 +33,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Also update icon when resizing the window
   window.addEventListener("resize", updateButtonText);
-
-  // Prevent main content from scrolling when using sidebar scroll
-  sidebar.addEventListener(
-    "wheel",
-    function (e) {
-      e.stopPropagation();
-    },
-    { passive: true }
-  );
-
-  sidebar.addEventListener(
-    "touchmove",
-    function (e) {
-      e.stopPropagation();
-    },
-    { passive: true }
-  );
 });

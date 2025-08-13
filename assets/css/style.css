@@ -47,7 +47,6 @@ body,
   /* height: 100%; */
   height: 100vh; /* Full viewport height */
   overflow-y: auto; /* Enable vertical scroll when content overflows */
-  overflow-x: hidden; /* No horizontal scroll */
   font-size: 18px;
   /* Match to .main-content or body */
   background-color: #111;
@@ -340,19 +339,12 @@ section h3 {
     max-width: 250px;
     height: 100vh; /* full height */
     overflow-y: auto; /* keep scrolling enabled */
-
+    /* transform: translateX(-100%); */
+    /* transition: transform 0.3s ease; */
     z-index: 1000; /* sit above main-content */
     transform: translateX(-100%); /* sidebar is visible by default */
     /* for hamburger */
     transition: transform 0.3s ease;
-    /* to fix scrolling issues on mobile */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-  }
-
-  /* to fix scrolling issues on mobile */
-  /* Prevent main content from scrolling when sidebar is active on mobile */
-  body.sidebar-open {
-    overflow: hidden;
   }
 
   /* for hamburger */
