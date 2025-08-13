@@ -151,7 +151,7 @@ layout: default
     </ul>
 
     <br />
-    <h3>ML/Stats</h3>
+    <h3>Classical ML/Stats</h3>
     <ul>
       <li>
         Predicting the click rate of web ads using factorization machines (<a
