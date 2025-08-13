@@ -31,49 +31,34 @@ layout: default
   <section id="skills">
     <h2>Skills & Interests</h2>
     <div class="skills-grid">
-      <div>
+      <div class="with-progress">
         <h3>Programming languages</h3>
         <ul>
-          <li data-percent="90">Python</li>        <!-- preferred -->
+          <li data-percent="90">Python</li>
           <li data-percent="70">R</li>
+          <li data-percent="55">Java</li>
+          <li data-percent="40">C++</li>
         </ul>
       </div>
+
+      <!-- another box WITHOUT progress bars -->
       <div>
-        <h3>Programming languages</h3>
+        <h3>DEF</h3>
         <ul>
-          <li data-percent="90">Python</li>        <!-- preferred -->
-          <li data-percent="70">R</li>
+          <li>Some entry</li>
         </ul>
       </div>
-      <div>
-        <h3>Programming languages</h3>
+
+      <!-- ML/DL box (has progress bars) -->
+      <div class="with-progress">
+        <h3>ML/DL</h3>
         <ul>
-          <li data-percent="90">Python</li>        <!-- preferred -->
-          <li data-percent="70">R</li>
+          <li data-percent="85">Neural Networks</li>
+          <li data-percent="60">Classical ML</li>
         </ul>
       </div>
-      <div>
-        <h3>Programming languages</h3>
-        <ul>
-          <li data-percent="90">Python</li>        <!-- preferred -->
-          <li data-percent="70">R</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Programming languages</h3>
-        <ul>
-          <li data-percent="90">Python</li>        <!-- preferred -->
-          <li data-percent="70">R</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Programming languages</h3>
-        <ul>
-          <li data-percent="90">Python</li>        <!-- preferred -->
-          <li data-percent="70">R</li>
-        </ul>
-      </div>
-      </div>
+    </div>
+
   </section>
 
   <section id="projects">
@@ -104,7 +89,7 @@ layout: default
         >
         (<a
           href="https://github.com/Esra-K/MSc-Coursework/tree/master/Deep%20Learning-Spring2024"
-        >deep learning coursework</a
+          >deep learning coursework</a
         >) spring 2024
       </li>
       <li>
@@ -131,7 +116,7 @@ layout: default
       </li>
     </ul>
 
-    <br>
+    <br />
     <h3>Bioinformatics</h3>
     <ul>
       <li>
@@ -146,7 +131,7 @@ layout: default
       </li>
     </ul>
 
-    <br>
+    <br />
     <h3>ML/Stats</h3>
     <ul>
       <li>
@@ -182,7 +167,7 @@ layout: default
       </li>
     </ul>
 
-    <br>
+    <br />
     <h3>Software/IT</h3>
     <ul>
       <li>
@@ -217,7 +202,7 @@ layout: default
       </li>
     </ul>
 
-    <br>
+    <br />
     <h3>Extracurricular Activities</h3>
     <ul>
       <li>
@@ -260,10 +245,12 @@ layout: default
       <li>Mathematics and Physics: ranked 25th among +164,000</li>
       <li>English: ranked 18th among +6,000</li>
     </ul>
-    <br>
+    <br />
     <h3>Nationwide Exams For M.Sc. admissions - Sept. 2023</h3>
     <ul>
-      <li>Bioinformatics: ranked 98th among +10,000 (without really trying :))</li>
+      <li>
+        Bioinformatics: ranked 98th among +10,000 (without really trying :))
+      </li>
     </ul>
   </section>
 
@@ -281,5 +268,4 @@ layout: default
       <li></li>
     </ul>
   </section>
-
 </div>
