@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.getElementById("sidebar-toggle");
-  const sidebar = document.getElementById("sidebar");
-  const body = document.body;
+  const sidebar = document.querySelector(".sidebar"); // now by class
 
   function updateButtonText() {
+    // If sidebar is collapsed (desktop) or not active (mobile)
     const isCollapsedDesktop =
       window.innerWidth > 768 && sidebar.classList.contains("collapsed");
     const isHiddenMobile =
@@ -16,55 +16,38 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  function openSidebar() {
-    sidebar.classList.add("active");
-    body.classList.add("sidebar-open"); // Lock background scroll
-    if (window.innerWidth > 768) {
-      sidebar.classList.remove("collapsed");
-    }
-    updateButtonText();
-  }
-
-  function closeSidebar() {
-    sidebar.classList.remove("active");
-    body.classList.remove("sidebar-open"); // Unlock background scroll
-    if (window.innerWidth > 768) {
-      sidebar.classList.add("collapsed");
-    }
-    updateButtonText();
-  }
-
   toggleButton.addEventListener("click", function () {
-    if (
-      sidebar.classList.contains("active") ||
-      (window.innerWidth > 768 && !sidebar.classList.contains("collapsed"))
-    ) {
-      closeSidebar();
-    } else {
-      openSidebar();
+    // Always toggle "active" (for mobile visibility)
+    sidebar.classList.toggle("active");
+
+    // For desktop: toggle "collapsed" class
+    if (window.innerWidth > 768) {
+      sidebar.classList.toggle("collapsed");
     }
+
+    updateButtonText();
   });
 
-  // Prevent closing when clicking sidebar links
-  sidebar.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", function (e) {
-      // Allow default scrolling to section
-      if (window.innerWidth > 768) {
-        // Desktop: do nothing special
-      } else {
-        // Mobile: keep sidebar open
-        e.preventDefault();
-        const targetId = this.getAttribute("href");
-        if (targetId && targetId.startsWith("#")) {
-          document
-            .querySelector(targetId)
-            .scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    });
-  });
-
-  // Initial state
+  // Update icon on load
   updateButtonText();
+
+  // Also update icon when resizing the window
   window.addEventListener("resize", updateButtonText);
+
+  // Prevent main content from scrolling when using sidebar scroll
+  sidebar.addEventListener(
+    "wheel",
+    function (e) {
+      e.stopPropagation();
+    },
+    { passive: true }
+  );
+
+  sidebar.addEventListener(
+    "touchmove",
+    function (e) {
+      e.stopPropagation();
+    },
+    { passive: true }
+  );
 });
