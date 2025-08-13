@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const sidebar = document.getElementById("sidebar");
 
   function updateButtonText() {
-    // If sidebar is collapsed (desktop) or not active (mobile)
     const isCollapsedDesktop =
       window.innerWidth > 768 && sidebar.classList.contains("collapsed");
     const isHiddenMobile =
@@ -17,12 +16,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   toggleButton.addEventListener("click", function () {
-    // Always toggle "active" (for mobile visibility)
+    // Toggle "active" for mobile slide-in
     sidebar.classList.toggle("active");
 
-    // For desktop: toggle "collapsed" class
+    // Toggle "collapsed" for desktop
     if (window.innerWidth > 768) {
       sidebar.classList.toggle("collapsed");
+    }
+
+    // Prevent main content scroll when sidebar is open on mobile
+    if (sidebar.classList.contains("active") && window.innerWidth <= 768) {
+      document.body.classList.add("sidebar-open");
+    } else {
+      document.body.classList.remove("sidebar-open");
     }
 
     updateButtonText();
@@ -31,6 +37,13 @@ document.addEventListener("DOMContentLoaded", function () {
   // Update icon on load
   updateButtonText();
 
-  // Also update icon when resizing the window
-  window.addEventListener("resize", updateButtonText);
+  // Update icon and scroll lock state on resize
+  window.addEventListener("resize", function () {
+    updateButtonText();
+
+    // Remove scroll lock if switching to desktop view
+    if (window.innerWidth > 768) {
+      document.body.classList.remove("sidebar-open");
+    }
+  });
 });

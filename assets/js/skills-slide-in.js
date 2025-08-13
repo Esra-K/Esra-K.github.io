@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Only run animation on desktop
+  // if (window.innerWidth > 768) {
   if (window.innerWidth > 1) {
     const items = document.querySelectorAll(".skills-grid > div");
 
