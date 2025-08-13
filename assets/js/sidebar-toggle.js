@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.getElementById("sidebar-toggle");
   const sidebar = document.getElementById("sidebar");
+  const body = document.body;
 
   function updateButtonText() {
     const isCollapsedDesktop =
@@ -15,35 +16,55 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  function openSidebar() {
+    sidebar.classList.add("active");
+    body.classList.add("sidebar-open"); // Lock background scroll
+    if (window.innerWidth > 768) {
+      sidebar.classList.remove("collapsed");
+    }
+    updateButtonText();
+  }
+
+  function closeSidebar() {
+    sidebar.classList.remove("active");
+    body.classList.remove("sidebar-open"); // Unlock background scroll
+    if (window.innerWidth > 768) {
+      sidebar.classList.add("collapsed");
+    }
+    updateButtonText();
+  }
+
   toggleButton.addEventListener("click", function () {
-    // Toggle "active" for mobile slide-in
-    sidebar.classList.toggle("active");
-
-    // Toggle "collapsed" for desktop
-    if (window.innerWidth > 768) {
-      sidebar.classList.toggle("collapsed");
-    }
-
-    // Prevent main content scroll when sidebar is open on mobile
-    if (sidebar.classList.contains("active") && window.innerWidth <= 768) {
-      document.body.classList.add("sidebar-open");
+    if (
+      sidebar.classList.contains("active") ||
+      (window.innerWidth > 768 && !sidebar.classList.contains("collapsed"))
+    ) {
+      closeSidebar();
     } else {
-      document.body.classList.remove("sidebar-open");
+      openSidebar();
     }
-
-    updateButtonText();
   });
 
-  // Update icon on load
+  // Prevent closing when clicking sidebar links
+  sidebar.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", function (e) {
+      // Allow default scrolling to section
+      if (window.innerWidth > 768) {
+        // Desktop: do nothing special
+      } else {
+        // Mobile: keep sidebar open
+        e.preventDefault();
+        const targetId = this.getAttribute("href");
+        if (targetId && targetId.startsWith("#")) {
+          document
+            .querySelector(targetId)
+            .scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    });
+  });
+
+  // Initial state
   updateButtonText();
-
-  // Update icon and scroll lock state on resize
-  window.addEventListener("resize", function () {
-    updateButtonText();
-
-    // Remove scroll lock if switching to desktop view
-    if (window.innerWidth > 768) {
-      document.body.classList.remove("sidebar-open");
-    }
-  });
+  window.addEventListener("resize", updateButtonText);
 });
