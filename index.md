@@ -93,13 +93,7 @@ layout: default
     </li>
     <li>
       Implementing various models and training techniques, notably generative
-      ones -
-      <a
-        href="https://github.com/Esra-K/MSc-Coursework/tree/master/Deep%20Learning-Spring2024"
-      >
-        deep learning coursework
-      </a>
-      - spring 2024 such as
+      ones such as
       <a
         href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW4-Practical/DlHw4-402210676/DDPM.ipynb"
         >DDPM</a
@@ -112,6 +106,16 @@ layout: default
         href="https://github.com/Esra-K/MSc-Coursework/blob/master/Deep%20Learning-Spring2024/HW3-Practical/HW3Practical-402210676/SimpleGPT.ipynb"
         >GPT</a
       >
+      ()
+      <a
+        href="https://github.com/Esra-K/MSc-Coursework/tree/master/Deep%20Learning-Spring2024"
+      >
+        deep learning coursework
+      </a>
+      ) spring 2024
+    </li>
+    <li> GWAS Phasing
+    (<a href="">computational genomics project</a>) - fall 2024
     </li>
     <li>
       Predicting the click rate of web ads using factorization machines (<a
