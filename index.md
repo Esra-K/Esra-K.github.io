@@ -288,7 +288,7 @@ layout: default
       <li>English: ranked 18th among +6,000</li>
     </ul>
     <br>
-    <h3>Nationwide Exams For M.Sc. admissions- Sept. 2016</h3>
+    <h3>Nationwide Exams For M.Sc. admissions- Sept. 2023</h3>
     <ul>
       <li>Bioinformatics: ranked 98th among +10,000 (without really trying :))</li>
     </ul>
