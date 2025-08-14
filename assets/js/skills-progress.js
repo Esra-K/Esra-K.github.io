@@ -16,13 +16,32 @@ document.addEventListener("DOMContentLoaded", () => {
     return null;
   }
 
+  // function percentToHsl(percent) {
+  //   const t = Math.max(0, Math.min(100, percent)) / 100;
+  //   const hueStart = 330; // pink
+  //   const hueEnd = 180; // teal
+  //   const hue = Math.round(hueStart + (hueEnd - hueStart) * t);
+  //   const sat = 85;
+  //   const light = 55 - 12 * (1 - t);
+  //   return `hsl(${hue} ${sat}% ${light}%)`;
+  // }
+  /* update August 15, 2025: change color range of progress bars */
   function percentToHsl(percent) {
     const t = Math.max(0, Math.min(100, percent)) / 100;
-    const hueStart = 330; // pink
-    const hueEnd = 180; // teal
+
+    // endpoints
+    const hueStart = 339,
+      satStart = 82,
+      lightStart = 56;
+    const hueEnd = 185,
+      satEnd = 99,
+      lightEnd = 80;
+
+    // interpolate each channel
     const hue = Math.round(hueStart + (hueEnd - hueStart) * t);
-    const sat = 85;
-    const light = 55 - 12 * (1 - t);
+    const sat = Math.round(satStart + (satEnd - satStart) * t);
+    const light = Math.round(lightStart + (lightEnd - lightStart) * t);
+
     return `hsl(${hue} ${sat}% ${light}%)`;
   }
 
