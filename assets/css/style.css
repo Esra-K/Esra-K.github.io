@@ -200,14 +200,16 @@ body,
 }
 
 /* small label with percent at the right (optional) */
+/*
 .skills-grid .with-progress li .skill-percentage {
   position: absolute;
   right: 0;
   top: 0;
   font-size: 13px;
-  color: #cfeffd; /* lightish */
+  color: #cfeffd; 
   opacity: 0.9;
-}
+} 
+*/
 
 /* wrapper for the bar under each li */
 .skills-grid .with-progress li .skill-bar {

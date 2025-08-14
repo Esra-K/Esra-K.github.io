@@ -36,13 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const percent = parsePercentFromLi(li);
 
-    if (percent !== null) {
-      const pctSpan = document.createElement("span");
-      pctSpan.className = "skill-percentage";
-      pctSpan.textContent = `${percent}%`;
-      li.appendChild(pctSpan);
-    }
-
     const bar = document.createElement("div");
     bar.className = "skill-bar";
     const fill = document.createElement("div");

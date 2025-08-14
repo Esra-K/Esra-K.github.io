@@ -40,7 +40,6 @@ layout: default
           <li data-percent="40">C++</li>
         </ul>
       </div>
-
       <!-- another box WITHOUT progress bars -->
       <div>
         <h3>DEF</h3>
@@ -48,7 +47,22 @@ layout: default
           <li>Some entry</li>
         </ul>
       </div>
-
+      <!-- ML/DL box (has progress bars) -->
+      <div class="with-progress">
+        <h3>ML/DL</h3>
+        <ul>
+          <li data-percent="85">Neural Networks</li>
+          <li data-percent="60">Classical ML</li>
+          <li data-percent="30">Classical ML</li>
+        </ul>
+      </div>
+      <!-- another box WITHOUT progress bars -->
+      <div>
+        <h3>DEF</h3>
+        <ul>
+          <li>Some entry</li>
+        </ul>
+      </div>
       <!-- ML/DL box (has progress bars) -->
       <div class="with-progress">
         <h3>ML/DL</h3>
@@ -57,23 +71,6 @@ layout: default
           <li data-percent="60">Classical ML</li>
         </ul>
       </div>
-      <!-- another box WITHOUT progress bars -->
-      <div>
-        <h3>DEF</h3>
-        <ul>
-          <li>Some entry</li>
-        </ul>
-      </div>
-
-      <!-- ML/DL box (has progress bars) -->
-      <div class="with-progress">
-        <h3>ML/DL</h3>
-        <ul>
-          <li data-percent="85">Neural Networks</li>
-          <li data-percent="60">Classical ML</li>
-        </ul>
-      </div>
-
       <div>
       </div>
     </div>
