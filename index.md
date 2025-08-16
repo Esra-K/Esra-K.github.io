@@ -34,7 +34,7 @@ layout: default
         <h3>Programming/Markup languages</h3>
         <ul>
           <li data-percent="85">Python</li>
-          <li >R</li> <!-- data-percent="70" -->
+          <li data-percent="70">R</li> <!--  -->
           <li data-percent="67">Java</li>
           <li data-percent="40">C++</li>
           <li data-percent="40">bash</li>
