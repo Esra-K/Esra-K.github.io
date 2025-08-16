@@ -6,31 +6,16 @@ document.addEventListener("DOMContentLoaded", () => {
       const n = parseFloat(attr);
       if (!Number.isNaN(n)) return Math.max(0, Math.min(100, n));
     }
-    const text = li.textContent || "";
-    const regex = /(?:\(|-)\s*(\d{1,3})\s*%?\)?\s*$/;
-    const m = text.match(regex);
-    if (m && m[1]) {
-      const n = parseFloat(m[1]);
-      if (!Number.isNaN(n)) return Math.max(0, Math.min(100, n));
-    }
-    return null;
+    return null; // only accept data-percent
   }
 
   function percentToHsl(percent) {
     const t = Math.max(0, Math.min(100, percent)) / 100;
-    // spectrum: hsl(339°, 82%, 56%) -> hsl(185°, 99%, 80%)
-    const hueStart = 339;
-    const satStart = 82;
-    const lightStart = 56;
-
-    const hueEnd = 185;
-    const satEnd = 99;
-    const lightEnd = 80;
-
+    const hueStart = 330; // pink
+    const hueEnd = 180; // teal
     const hue = Math.round(hueStart + (hueEnd - hueStart) * t);
-    const sat = Math.round(satStart + (satEnd - satStart) * t);
-    const light = Math.round(lightStart + (lightEnd - lightStart) * t);
-
+    const sat = 85;
+    const light = 55 - 12 * (1 - t);
     return `hsl(${hue} ${sat}% ${light}%)`;
   }
 
@@ -42,52 +27,50 @@ document.addEventListener("DOMContentLoaded", () => {
     if (li.querySelector(".skill-bar")) return;
 
     const percent = parsePercentFromLi(li);
-    const usePct = percent === null ? 50 : percent;
+    if (percent === null) return; // skip if no valid data-percent
 
     const bar = document.createElement("div");
     bar.className = "skill-bar";
     const fill = document.createElement("div");
     fill.className = "skill-fill";
 
-    // set color, but keep width at 0 until animation trigger
-    fill.style.backgroundColor = percentToHsl(usePct);
-    fill.style.width = "0%";
+    fill.style.backgroundColor = percentToHsl(percent);
+    fill.style.width = "0%"; // start empty, animate later
 
     // ARIA
     fill.setAttribute("role", "progressbar");
     fill.setAttribute("aria-valuemin", "0");
     fill.setAttribute("aria-valuemax", "100");
-    fill.setAttribute("aria-valuenow", String(usePct));
-    fill.setAttribute("aria-label", `Skill level ${usePct} percent`);
+    fill.setAttribute("aria-valuenow", String(percent));
+    fill.setAttribute("aria-label", `Skill level ${percent} percent`);
 
     bar.appendChild(fill);
     li.appendChild(bar);
 
-    // store target percent for later animation
-    li.dataset.targetPercent = usePct;
+    // Save reference for animation
+    li.dataset.targetPercent = percent;
+    li._skillFill = fill;
   });
 
-  // IntersectionObserver to trigger animation on scroll
+  // Animate when visible
   const observer = new IntersectionObserver(
-    (entries) => {
+    (entries, obs) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           const li = entry.target;
-          const fill = li.querySelector(".skill-fill");
-          if (fill && !li.dataset.animated) {
-            const target = li.dataset.targetPercent || 0;
-            requestAnimationFrame(() => {
-              requestAnimationFrame(() => {
-                fill.style.width = `${target}%`;
-              });
-            });
-            li.dataset.animated = "true"; // ensure one-time animation
+          if (li.dataset.targetPercent && li._skillFill) {
+            li._skillFill.style.width = `${li.dataset.targetPercent}%`;
           }
+          obs.unobserve(li); // only animate once
         }
       });
     },
-    { threshold: 0.3 } // trigger when 30% visible
+    { threshold: 0.3 }
   );
 
-  liNodes.forEach((li) => observer.observe(li));
+  liNodes.forEach((li) => {
+    if (li.dataset.targetPercent && li._skillFill) {
+      observer.observe(li);
+    }
+  });
 });
