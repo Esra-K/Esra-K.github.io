@@ -31,46 +31,97 @@ layout: default
     <h2>Skills</h2>
     <div class="skills-grid">
       <div class="with-progress">
-        <h3>Programming languages</h3>
+        <h3>Programming/Markup languages</h3>
         <ul>
-          <li data-percent="90">Python</li>
+          <li data-percent="85">Python</li>
           <li data-percent="70">R</li>
-          <li data-percent="55">Java</li>
+          <li data-percent="67">Java</li>
           <li data-percent="40">C++</li>
+          <li data-percent="40">bash</li>
+          <li data-percent="60">LaTeX</li>
+          <li data-percent="60">HTML</li>
         </ul>
       </div>
+
       <!-- another box WITHOUT progress bars -->
       <div>
-        <h3>DEF</h3>
+        <h3>NLP / DL / ML</h3>
         <ul>
-          <li>Some entry</li>
+          <li>PyTorch</li>
+          <li>WandB (Weights & Biases)</li>
+          <li>Scikit-Learn</li>
+          <li>NLTK</li>
+          <li>spaCy</li>
+          <li>Pandas</li>
+          <li>matplotlib</li>
         </ul>
       </div>
-      <!-- ML/DL box (has progress bars) -->
-      <div class="with-progress">
-        <h3>ML/DL</h3>
-        <ul>
-          <li data-percent="85">Neural Networks</li>
-          <li data-percent="60">Classical ML</li>
-          <li data-percent="30">Classical ML</li>
-        </ul>
-      </div>
-      <!-- another box WITHOUT progress bars -->
+
       <div>
-        <h3>DEF</h3>
+        <h3>Bio Only</h3>
         <ul>
-          <li>Some entry</li>
+          <li>Biopython</li>
+          <li>PyMOL</li>
+          <li>VMD</li>
         </ul>
       </div>
-      <!-- ML/DL box (has progress bars) -->
-      <div class="with-progress">
-        <h3>ML/DL</h3>
+
+      <div>
+        <h3>Web</h3>
         <ul>
-          <li data-percent="85">Neural Networks</li>
-          <li data-percent="60">Classical ML</li>
+          <li>Django</li>
+          <li>Spring Boot</li>
+          <li>CSS</li>
+          <li>Selenium</li>
+          <li>Scrapy</li>
+          <li>Heroku</li>
         </ul>
       </div>
       <div>
+        <h3>Databases</h3>
+        <ul>
+          <li>SQL</li>
+          <li>SQLite</li>
+          <li>DB2 SQL</li>
+          <li>MongoDB</li>
+          <li>Elasticsearch</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Project management & version control</h3>
+        <ul>
+          <li>Git</li>
+          <li>Jira</li>
+          <li>Trello</li>
+          <li>Taiga</li>
+          <li>MS Project</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Networking</h3>
+        <ul>
+          <li>GNS3</li>
+          <li>Packet Tracer</li>
+          <li>Wireshark</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Hardware</h3>
+        <ul>
+          <li>Verilog</li>
+          <li>Quartus</li>
+          <li>ModelSim</li>
+          <li>LTspice</li>
+        </ul>
+      </div>
+      <div class="with-progress">
+        <h3>Languages</h3>
+        <ul>
+          <li data-percent="95">Persian</li>
+          <li data-percent="85">English</li>
+          <li data-percent="60">Arabic</li>
+          <li data-percent="30">French</li>
+        </ul>
       </div>
     </div>
 
@@ -194,10 +245,10 @@ layout: default
         >) - fall 2018
       </li>
       <li>
-        The addition of Persian UI to three open-source Android apps (<a
-          href="https://github.com/Esra-K/FDroidFA"
-          >OS project</a
-        >) - spring 2021
+        A Pascal compiler in Java (<a
+          href="https://gitlab.com/hosseini.simurg/pascal_compiler"
+          >compiler design project project</a
+        >) - fall 2019
       </li>
       <li>
         Alien Creeps game in Java (<a
@@ -206,10 +257,16 @@ layout: default
         >) - fall 2017
       </li>
       <li>
+        The addition of Persian UI to three open-source Android apps (<a
+          href="https://github.com/Esra-K/FDroidFA"
+          >OS project</a
+        >) - spring 2021
+      </li>
+      <li>
         Simulation of a queue of 200 people at a bank (<a
-          href="https://github.com/Esra-K/BSc-Coursework/tree/main/ComputerSimulation_Fall2019/CompSimProj-95105816"
+          href="https://github.com/Esra-K/BSc-Coursework/tree/main/ComputerSimulation_Fall2018/CompSimProj-95105816"
           >computer simulation project</a
-        >) - fall 2019
+        >) - fall 2018
       </li>
       <li>
         Random number generator for common probability distributions in R (<a
@@ -219,7 +276,6 @@ layout: default
         >) - fall 2017
       </li>
     </ul>
-
     <br />
     <h3>Extracurricular Activities</h3>
     <ul>
