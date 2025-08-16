@@ -24,12 +24,11 @@ layout: default
       free time, I enjoy playing badminton, reading novels, hiking, and writing.
     </p>
   </section>
-  <section id="experience">
+  <!-- <section id="experience">
     <h2>Experience</h2>
-  </section>
-
+  </section> -->
   <section id="skills">
-    <h2>Skills & Interests</h2>
+    <h2>Skills</h2>
     <div class="skills-grid">
       <div class="with-progress">
         <h3>Programming languages</h3>
@@ -131,7 +130,6 @@ layout: default
         >) - spring 2020
       </li>
     </ul>
-
     <br />
     <h3>Bioinformatics</h3>
     <ul>
@@ -146,7 +144,6 @@ layout: default
         >) - spring 2019
       </li>
     </ul>
-
     <br />
     <h3>Classical ML/Stats</h3>
     <ul>
@@ -182,7 +179,6 @@ layout: default
         >) - fall 2016
       </li>
     </ul>
-
     <br />
     <h3>Software/IT</h3>
     <ul>
@@ -204,16 +200,22 @@ layout: default
         >) - spring 2021
       </li>
       <li>
+        Alien Creeps game in Java (<a
+          href="https://github.com/Sharif-University-AP2017Fall/team10"
+          >advanced programming project</a
+        >) - fall 2017
+      </li>
+      <li>
+        Simulation of a queue of 200 people at a bank (<a
+          href="https://github.com/Esra-K/BSc-Coursework/tree/main/ComputerSimulation_Fall2019/CompSimProj-95105816"
+          >computer simulation project</a
+        >) - fall 2019
+      </li>
+      <li>
         Random number generator for common probability distributions in R (<a
           href="https://github.com/Esra-K/Probability-and-Stats-Proj-Fall-2017"
         >
           probability and statistics for engineering project</a
-        >) - fall 2017
-      </li>
-      <li>
-        Alien Creeps game in Java (<a
-          href="https://github.com/Sharif-University-AP2017Fall/team10"
-          >advanced programming project</a
         >) - fall 2017
       </li>
     </ul>
@@ -281,7 +283,6 @@ layout: default
           >https://doi.org/10.1186/s12859-022-04883-9</a
         >
       </li>
-      <li></li>
     </ul>
   </section>
 </div>
