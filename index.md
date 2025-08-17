@@ -314,18 +314,19 @@ layout: default
 
   <section id="honors">
     <h2>Awards & Honors</h2>
-    <h3>Nationwide University Entrance Exams - Sept. 2016</h3>
-    <ul>
-      <li>Mathematics and Physics: ranked 25th among +164,000</li>
-      <li>English: ranked 18th among +6,000</li>
-    </ul>
-    <br />
     <h3>Nationwide Exams For M.Sc. admissions - Sept. 2023</h3>
     <ul>
       <li>
         Bioinformatics: ranked 98th among +10,000 (without really trying :))
       </li>
     </ul>
+    <br />
+    <h3>Nationwide University Entrance Exams - Sept. 2016</h3>
+    <ul>
+      <li>Mathematics and Physics: ranked 25th among +164,000</li>
+      <li>English: ranked 18th among +6,000</li>
+    </ul>
+    
   </section>
 
   <section id="publications">
