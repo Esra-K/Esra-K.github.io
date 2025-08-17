@@ -162,7 +162,7 @@ layout: default
         Scraping, indexing, and querying webpages from Semantic Scholar using
         Scrapy and Elasticsearch in Python (<a
           href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project3"
-          >modern information retrieval project - phase 3</a
+          >advanced information retrieval project - phase 3</a
         >) - spring 2020
       </li>
       <li>
@@ -170,14 +170,14 @@ layout: default
         KNN and K-Means from scratch and by the methods of SVM and Random Forest
         using scikit-learn in Python (<a
           href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project2"
-          >modern information retrieval project - phase 2</a
+          >advanced information retrieval project - phase 2</a
         >) - spring 2020
       </li>
       <li>
         Implementation of document indexing, retrieval and ranking in Python by
         the methods of cosine similarity and ranking SVM (<a
           href="https://github.com/Esra-K/BSc-Coursework/tree/main/AdvancedInformationRetrieval_Spring2020/Project1"
-          >modern information retrieval project - phase 1</a
+          >advanced information retrieval project - phase 1</a
         >) - spring 2020
       </li>
     </ul>
