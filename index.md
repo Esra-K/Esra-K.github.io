@@ -81,7 +81,7 @@ layout: default
         <h3>Databases</h3>
         <ul>
           <li>SQL</li>
-          <li>SQLite</li>
+          <li>MySQL</li>
           <li>DB2 SQL</li>
           <li>MongoDB</li>
           <li>Elasticsearch</li>
@@ -280,7 +280,7 @@ layout: default
     <h3>Extracurricular Activities</h3>
     <ul>
       <li>
-        Co-implemented a QA pipleline for tabluar data (a solution to
+        Co-implemented a QA pipeline for tabular data (a solution to
         <a href="https://github.com/language-ml/SemEval2025-Task8"
           >SemEval 2025 task 8</a
         >)
