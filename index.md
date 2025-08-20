@@ -227,7 +227,7 @@ layout: default
         perceptron in Python. (<a
           href="https://github.com/Esra-K/BSc-Coursework/tree/main/AI_Fall2018/Project"
         >
-          AI project</a
+        AI project</a
         >) - fall 2018
       </li>
       <li>
@@ -288,7 +288,7 @@ layout: default
         Random number generator for common probability distributions in R (<a
           href="https://github.com/Esra-K/Probability-and-Stats-Proj-Fall-2017"
         >
-          probability and statistics for engineering project</a
+        probability and statistics for engineering project</a
         >) - fall 2017
       </li>
     </ul>
