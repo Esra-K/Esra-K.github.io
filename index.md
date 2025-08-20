@@ -34,7 +34,8 @@ layout: default
         <h3>Programming/Markup languages</h3>
         <ul>
           <li data-percent="85">Python</li>
-          <li data-percent="70">R</li> <!--  -->
+          <li data-percent="70">R</li>
+          <!--  -->
           <li data-percent="67">Java</li>
           <li data-percent="40">C++</li>
           <li data-percent="40">bash</li>
@@ -158,6 +159,12 @@ layout: default
           >deep learning coursework</a
         >) spring 2024
       </li>
+      Character analysis of the book ”Romance of the Three Kingdoms” using
+      word2vec (<a
+        href="https://github.com/Esra-K/MSc-Coursework/tree/master/NLP-Fall2023/NLP1/Code"
+        >NLP open project</a
+      >) fall 2023
+      <li></li>
       <li>
         Scraping, indexing, and querying webpages from Semantic Scholar using
         Scrapy and Elasticsearch in Python (<a
@@ -185,7 +192,10 @@ layout: default
     <h3>Bioinformatics</h3>
     <ul>
       <li>
-        GWAS Phasing (<a href="">computational genomics project</a>) - fall 2024
+        GWAS Phasing (<a
+          href="https://github.com/Esra-K/MSc-Coursework/blob/master/Computational%20Genomics-Fall2024/CGHW3/HW3Q4_402210676.ipynb"
+          >computational genomics project</a
+        >) - fall 2024
       </li>
       <li>
         Gene expression profiling of acute myeloid leukemia samples from adult
@@ -233,6 +243,11 @@ layout: default
     <br />
     <h3>Software/IT</h3>
     <ul>
+      <li>
+        A Django app for booking doctor appointments and maintaining patient records (<a href="https://github.com/Esra-K/DrApp"
+          >independent project</a
+        >) - fall 2022
+      </li>
       <li>
         Book exchange website (<a href="https://github.com/Esra-K/Shabook"
           >system analysis and design project</a
@@ -288,7 +303,7 @@ layout: default
       <li>
         <a href="https://devpost.com/software/save-a-life-v2r6sg"
           >Enrolled in HackZurich 2020</a
-        >, one of Europe's biggest hackathons - Sept. 2020
+        >, one of Europe's biggest hackathons: helped build a Flutter app that sends alerts to the closest first-aiders upon an emergency - Sept. 2020
       </li>
       <li>
         Member of
@@ -309,7 +324,6 @@ layout: default
       </li>
       <li>Contribution to a few Persian Wikipedia articles</li>
     </ul>
-
   </section>
 
   <section id="honors">
@@ -326,7 +340,6 @@ layout: default
       <li>Mathematics and Physics: ranked 25th among +164,000</li>
       <li>English: ranked 18th among +6,000</li>
     </ul>
-    
   </section>
 
   <section id="publications">
