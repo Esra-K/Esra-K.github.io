@@ -159,12 +159,13 @@ layout: default
           >deep learning coursework</a
         >) spring 2024
       </li>
+      <li>
       Character analysis of the book ”Romance of the Three Kingdoms” using
       word2vec (<a
         href="https://github.com/Esra-K/MSc-Coursework/tree/master/NLP-Fall2023/NLP1/Code"
         >NLP open project</a
       >) fall 2023
-      <li></li>
+      </li>
       <li>
         Scraping, indexing, and querying webpages from Semantic Scholar using
         Scrapy and Elasticsearch in Python (<a
