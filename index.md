@@ -320,7 +320,7 @@ layout: default
           href="https://docs.google.com/presentation/d/1yyGOByCVkqvOE29NMen3jqF0f-dqqKaIoPKmDESNeOc/edit?usp=sharing"
           >A presentation</a
         >
-        at he department of economics on modeling international agreements on
+        at the department of economics on modeling international agreements on
         climate change as a threshold public goods game - spring 2020
       </li>
       <li>Contribution to a few Persian Wikipedia articles</li>
