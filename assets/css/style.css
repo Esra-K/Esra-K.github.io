@@ -164,18 +164,21 @@ body,
   border: none;
   background: none;
   /* for animation */
-  opacity: 0; /* Start hidden */
-  transform: translateX(50px); /* Slide in from right */
+  /* Start hidden */
+  /*
+  opacity: 0; 
+  transform: translateX(50px); 
   transition:
     opacity 0.6s ease,
     transform 0.6s ease;
+  */
 }
 
-/* for animation */
+/* for animation
 .skills-grid > div.slide-in {
   opacity: 1;
   transform: translateX(0);
-}
+} */
 
 .skills-grid ul {
   list-style-position: inside;
@@ -298,6 +301,19 @@ The track (.skill-bar) is a subtle light-gray on your dark background.
 
 section {
   margin-bottom: 60px;
+
+  /* for slide in: */
+  opacity: 0;
+  transform: translateX(-40px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+/* for slide in: */
+section.visible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 /* this was added so that list markers are indented 
