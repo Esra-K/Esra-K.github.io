@@ -410,7 +410,8 @@ section h3 {
   margin-right: 10px;
   display: inline-block;
   margin: 0 8px;
-  color: #4fc3f7;
+  color: var(--link-color);
+  /* color: #4fc3f7; */
   font-size: 20px;
   /* changed from 24 to 20 upon adding cv link */
   text-decoration: none;
@@ -418,7 +419,8 @@ section h3 {
 }
 
 .social-icons a:hover {
-  color: #ffffff;
+  color: var(--link-hover-color);
+  /* color: #ffffff; */
 }
 
 /* Hamburger button, hidden on desktop */
