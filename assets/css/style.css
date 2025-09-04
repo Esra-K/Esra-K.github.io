@@ -29,7 +29,9 @@ body.dark-mode {
   height: 36px;
   border-radius: 50%;
   background-color: var(--sidebar-bg);
-  border: 1px solid var(--text-color);
+  border: none; /* remove any border */
+  outline: none; /* remove focus outline */
+  /* border: 1px solid var(--text-color); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,6 +44,8 @@ body.dark-mode {
 
 .theme-toggle:hover,
 .theme-toggle:focus {
+  /* remove any border */
+  outline: none;
   background-color: var(--link-color);
   color: var(--bg-color);
 }
