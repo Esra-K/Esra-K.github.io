@@ -1,3 +1,42 @@
+/* for dark mode toggle */
+/* Theme variables */
+:root {
+  --bg-color: #fdfdfd;
+  --text-color: #111;
+  --link-color: #0066cc;
+  --link-hover-color: #004488;
+  --sidebar-bg: #f0f0f0;
+  --sidebar-text: #111;
+}
+
+body.dark-mode {
+  --bg-color: #222;
+  --text-color: #ffffff;
+  --link-color: #a0e7ff;
+  --link-hover-color: #ffffff;
+  --sidebar-bg: #111;
+  --sidebar-text: #ffffff;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color);
+  z-index: 1001;
+  transition: color 0.3s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+  color: var(--link-color);
+}
+
 /* for smooth scrolling */
 html {
   scroll-behavior: smooth;
@@ -15,8 +54,12 @@ html {
 
 body {
   /* font-family: 'Roboto', sans-serif; */
-  background-color: #222;
-  color: white;
+  /* for dark mode toggle */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  /* background-color: #222;
+  color: white; */
+
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -49,8 +92,11 @@ body,
   overflow-y: auto; /* Enable vertical scroll when content overflows */
   font-size: 18px;
   /* Match to .main-content or body */
-  background-color: #111;
-  color: white;
+  /* for dark mode toggle */
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  /* background-color: #111;
+  color: white; */
   text-align: center;
   padding: 30px;
   box-sizing: border-box;
@@ -114,8 +160,10 @@ body,
   padding-top: 20px;
   /* trying to fix white sidebar */
   flex: 1;
-  background-color: #222;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  /* background-color: #222;
+  color: white; */
   transition: margin-left 0.3s ease;
 }
 
@@ -375,7 +423,8 @@ section h3 {
   font-size: 2rem;
   background: none;
   border: none;
-  color: white;
+  color: var(--text-color); /* use theme variable */
+  /* color: white; */
   z-index: 1001;
   cursor: pointer;
 }

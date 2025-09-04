@@ -33,21 +33,30 @@
     />
   </head>
 
-  <body>
+  <!-- default theme set to light -->
+  <body class="light-theme">
     <!-- hamburger toggle button, visible on mobile -->
     <button id="sidebar-toggle" class="hamburger" aria-label="Toggle sidebar">
       ☰
+    </button>
+
+    <!-- 🔘 Theme toggle button at top-right -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      🌞
     </button>
 
     <div class="container">
       <div class="sidebar" id="sidebar">{% include sidebar.html %}</div>
       {{ content }}
     </div>
+
     <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/scroll-offset.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/sidebar-toggle.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/skills-slide-in.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/skills-progress.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/section-animations.js' | relative_url }}"></script>
+    <!-- 🔘 Include theme toggle logic -->
+    <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
   </body>
 </html>
