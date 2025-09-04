@@ -105,7 +105,8 @@ body,
   /* To make the sidebar scroll less visually intrusive
    (especially on Firefox): */
   scrollbar-width: thin; /* Firefox */
-  scrollbar-color: #555 #111; /* Firefox */
+  scrollbar-color: var(--sidebar-text) var(--sidebar-bg); /* thumb, track */
+  /* scrollbar-color: #555 #111; */
 
   /* for hamburger */
   transform: translateX(0); /* desktop default: shown */
@@ -117,16 +118,23 @@ body,
 (especially on Firefox): */
 
 .sidebar::-webkit-scrollbar {
-  width: 6px; /* Chrome/Safari */
+  /* width: 6px; Chrome/Safari */
+  width: 8px; /* scrollbar thickness */
 }
 
 .sidebar::-webkit-scrollbar-track {
-  background: #111;
+  background: var(--sidebar-bg); /* track matches sidebar */
+  /* background: #111; */
 }
 
 .sidebar::-webkit-scrollbar-thumb {
-  background-color: #555;
-  border-radius: 10px;
+  background-color: var(
+    --sidebar-text
+  ); /* thumb uses text color for contrast */
+  /* background-color: #555; */
+  border-radius: 4px;
+  /* border-radius: 10px; */
+  border: 2px solid var(--sidebar-bg); /* padding effect */
 }
 
 /* Final CSS for .profile-pic (centered + responsive) */
