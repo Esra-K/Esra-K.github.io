@@ -20,5 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("theme", "light");
       icon.className = "fa-solid fa-moon"; // moon icon
     }
+
+    // Remove focus after clicking so hover/focus styles don't stick
+    toggleBtn.blur();
   });
 });
