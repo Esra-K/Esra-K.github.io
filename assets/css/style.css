@@ -20,23 +20,30 @@ body.dark-mode {
   --sidebar-text: #ffffff;
 }
 
-/* Theme toggle button */
+/* Minimalistic theme toggle button */
 .theme-toggle {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  font-size: 1.5rem;
-  background: none;
-  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--sidebar-bg);
+  border: 1px solid var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px; /* icon size */
   cursor: pointer;
   color: var(--text-color);
   z-index: 1001;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .theme-toggle:hover,
 .theme-toggle:focus {
-  color: var(--link-color);
+  background-color: var(--link-color);
+  color: var(--bg-color);
 }
 
 /* for smooth scrolling */
