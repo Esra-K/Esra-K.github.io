@@ -186,16 +186,19 @@ body,
 
 /* Style links inside main-content */
 .main-content a {
-  color: #a0e7ff;
+  color: var(--link-color);
+  /* color: #a0e7ff; */
   text-decoration: none;
 }
 
 .main-content a:visited {
-  color: #dcb6ed;
+  /* color: #dcb6ed; */
+  color: var(--link-hover-color);
 }
 
 .main-content a:hover,
 .main-content a:focus {
+  color: var(--link-hover-color);
   text-decoration: underline;
 }
 
@@ -329,7 +332,8 @@ The track (.skill-bar) is a subtle light-gray on your dark background.
 }
 
 .sidebar-nav a {
-  color: white;
+  color: var(--sidebar-text);
+  /* color: white; */
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
@@ -343,8 +347,10 @@ The track (.skill-bar) is a subtle light-gray on your dark background.
 
 .sidebar-nav a:hover,
 .sidebar-nav a:focus {
-  background-color: #4fc3f7;
-  color: #111;
+  background-color: var(--link-color);
+  color: var(--bg-color);
+  /* background-color: #4fc3f7;
+  color: #111; */
 }
 
 section {
@@ -377,7 +383,7 @@ section ol {
 }
 
 section h2 {
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid var(--text-color); /*#444; */
   padding-bottom: 5px;
 }
 
@@ -385,7 +391,8 @@ section h2 {
 section h3 {
   font-size: 20px;
   margin-top: 5px;
-  color: #ffffff;
+  color: var(--text-color);
+  /* color: #ffffff; */
 }
 
 /* make "Esra Kashaninia" on the sidebar bigger */
