@@ -14,7 +14,7 @@ body.dark-mode {
   --bg-color: #222;
   --text-color: #ffffff;
   --link-color: #a0e7ff;
-  --link-hover-color: #ffffff;
+  --link-hover-color: #a0e7ff; /* #ffffff; */
   --link-visited-color: #a0e7ff; /* #dcb6ed;  light purple for dark bg */
   --sidebar-bg: #111;
   --sidebar-text: #ffffff;
